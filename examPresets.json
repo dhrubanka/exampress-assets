@@ -1,0 +1,444 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-14T18:45:00.000Z",
+  "categories": {
+    "engineering": {
+      "name": "Engineering & Technical",
+      "icon": "construct-outline",
+      "color": "#3B82F6"
+    },
+    "banking": {
+      "name": "Banking & Finance",
+      "icon": "card-outline",
+      "color": "#10B981"
+    },
+    "ssc": {
+      "name": "SSC & Government",
+      "icon": "business-outline",
+      "color": "#F59E0B"
+    },
+    "defence": {
+      "name": "Defence & Security",
+      "icon": "shield-outline",
+      "color": "#EF4444"
+    },
+    "railway": {
+      "name": "Railway",
+      "icon": "train-outline",
+      "color": "#8B5CF6"
+    },
+    "medical": {
+      "name": "Medical & Healthcare",
+      "icon": "medical-outline",
+      "color": "#EC4899"
+    },
+    "other": {
+      "name": "Other Exams",
+      "icon": "school-outline",
+      "color": "#6B7280"
+    }
+  },
+  "presets": [
+    {
+      "id": "gate-2024",
+      "name": "Graduate Aptitude Test in Engineering",
+      "shortName": "GATE",
+      "category": "engineering",
+      "organizer": "IIT/IISc",
+      "examType": "entrance",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Passport Size Photo",
+          "dimensions": {
+            "width": 3,
+            "height": 4,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 50,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "dpi": 200,
+          "aspectRatio": "3:4",
+          "colorMode": "color",
+          "required": true,
+          "description": "64pt font size recommendation, recent colored photograph"
+        }
+      ],
+      "isPopular": true,
+      "searchTags": ["gate", "iit", "engineering", "postgraduate", "mtech"]
+    },
+    {
+      "id": "cds-2024",
+      "name": "Combined Defence Services",
+      "shortName": "CDS",
+      "category": "defence",
+      "organizer": "UPSC",
+      "examType": "competitive",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Passport Photo",
+          "dimensions": {
+            "width": 140,
+            "height": 110,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 20,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "dpi": 200,
+          "aspectRatio": "3:4",
+          "colorMode": "color",
+          "required": true,
+          "description": "14pt minimum font size, colored passport photo"
+        },
+        {
+          "type": "signature",
+          "label": "Digital Signature",
+          "dimensions": {
+            "width": 140,
+            "height": 110,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 20,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Clear signature on white background"
+        }
+      ],
+      "isPopular": true,
+      "searchTags": ["cds", "upsc", "defence", "army", "navy", "airforce"]
+    },
+    {
+      "id": "net-2024",
+      "name": "National Eligibility Test",
+      "shortName": "NET",
+      "category": "other",
+      "organizer": "NTA",
+      "examType": "competitive",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Photograph",
+          "dimensions": {
+            "width": 140,
+            "height": 110,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 20,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "dpi": 200,
+          "aspectRatio": "3:4",
+          "colorMode": "color",
+          "required": true,
+          "description": "23pt font size, recent colored photograph"
+        }
+      ],
+      "isPopular": true,
+      "searchTags": ["net", "nta", "ugc", "professor", "assistant professor", "jrf"]
+    },
+    {
+      "id": "ssc-cgl",
+      "name": "Staff Selection Commission Combined Graduate Level",
+      "shortName": "SSC CGL",
+      "category": "ssc",
+      "organizer": "SSC",
+      "examType": "competitive",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Passport Size Photo",
+          "fileSize": {
+            "min": 4,
+            "max": 12,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Recent colored passport photograph"
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "fileSize": {
+            "min": 1,
+            "max": 12,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Signature on white paper with black/blue pen"
+        }
+      ],
+      "isPopular": true,
+      "searchTags": ["ssc", "cgl", "government", "clerk", "assistant", "inspector"]
+    },
+    {
+      "id": "ibps-po",
+      "name": "Institute of Banking Personnel Selection - Probationary Officer",
+      "shortName": "IBPS PO",
+      "category": "banking",
+      "organizer": "IBPS",
+      "examType": "competitive",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Passport Photograph",
+          "fileSize": {
+            "min": 4,
+            "max": 12,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Recent passport size colored photograph"
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "fileSize": {
+            "min": 1,
+            "max": 12,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Signature with black/blue pen on white paper"
+        }
+      ],
+      "isPopular": true,
+      "searchTags": ["ibps", "po", "banking", "probationary officer", "bank"]
+    },
+    {
+      "id": "neet",
+      "name": "National Eligibility cum Entrance Test",
+      "shortName": "NEET",
+      "category": "medical",
+      "organizer": "NTA",
+      "examType": "entrance",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Passport Size Photo",
+          "dimensions": {
+            "width": 25,
+            "height": 35,
+            "unit": "mm"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG", "PNG"],
+          "dpi": 300,
+          "aspectRatio": "5:7",
+          "colorMode": "color",
+          "required": true,
+          "description": "Recent passport size colored photograph, 80% face coverage"
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "dimensions": {
+            "width": 30,
+            "height": 15,
+            "unit": "mm"
+          },
+          "fileSize": {
+            "min": 1,
+            "max": 30,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG", "PNG"],
+          "required": true,
+          "description": "Signature on white background with black/blue pen"
+        }
+      ],
+      "isPopular": true,
+      "searchTags": ["neet", "medical", "mbbs", "bds", "ayush", "doctor"]
+    },
+    {
+      "id": "jee-main",
+      "name": "Joint Entrance Examination Main",
+      "shortName": "JEE Main",
+      "category": "engineering",
+      "organizer": "NTA",
+      "examType": "entrance",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Photograph",
+          "dimensions": {
+            "width": 25,
+            "height": 35,
+            "unit": "mm"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG", "PNG"],
+          "dpi": 300,
+          "aspectRatio": "5:7",
+          "colorMode": "color",
+          "required": true,
+          "description": "Recent passport size photograph, 80% face coverage"
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "dimensions": {
+            "width": 30,
+            "height": 15,
+            "unit": "mm"
+          },
+          "fileSize": {
+            "min": 1,
+            "max": 30,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG", "PNG"],
+          "required": true,
+          "description": "Clear signature with black/blue pen"
+        }
+      ],
+      "isPopular": true,
+      "searchTags": ["jee", "main", "iit", "nit", "engineering", "entrance"]
+    },
+    {
+      "id": "rrb-ntpc",
+      "name": "Railway Recruitment Board Non-Technical Popular Categories",
+      "shortName": "RRB NTPC",
+      "category": "railway",
+      "organizer": "RRB",
+      "examType": "competitive",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Recent Passport Size Photo",
+          "fileSize": {
+            "min": 15,
+            "max": 40,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Recent colored passport photograph"
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "fileSize": {
+            "min": 5,
+            "max": 20,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Signature on white background"
+        }
+      ],
+      "isPopular": true,
+      "searchTags": ["rrb", "ntpc", "railway", "station master", "clerk", "asi"]
+    },
+    {
+      "id": "capf-ac",
+      "name": "Central Armed Police Forces Assistant Commandant",
+      "shortName": "CAPF AC",
+      "category": "defence",
+      "organizer": "UPSC",
+      "examType": "competitive",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Passport Size Photo",
+          "dimensions": {
+            "width": 140,
+            "height": 110,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 20,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Recent colored passport photograph"
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "dimensions": {
+            "width": 140,
+            "height": 110,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 20,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Signature on white background"
+        }
+      ],
+      "isPopular": false,
+      "searchTags": ["capf", "assistant commandant", "upsc", "crpf", "bsf", "cisf"]
+    },
+    {
+      "id": "sbi-po",
+      "name": "State Bank of India Probationary Officer",
+      "shortName": "SBI PO",
+      "category": "banking",
+      "organizer": "SBI",
+      "examType": "competitive",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Recent Photo",
+          "fileSize": {
+            "min": 4,
+            "max": 12,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Recent passport size photograph"
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "fileSize": {
+            "min": 1,
+            "max": 12,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Candidate signature with black/blue pen"
+        }
+      ],
+      "isPopular": true,
+      "searchTags": ["sbi", "po", "state bank", "probationary officer", "banking"]
+    }
+  ]
+}
