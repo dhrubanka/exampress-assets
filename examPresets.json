@@ -40,7 +40,7 @@
   },
   "presets": [
     {
-      "id": "gate-2024",
+      "id": "gate-2025",
       "name": "Graduate Aptitude Test in Engineering",
       "shortName": "GATE",
       "category": "engineering",
@@ -49,27 +49,81 @@
       "requirements": [
         {
           "type": "photo",
-          "label": "Passport Size Photo",
-          "dimensions": {
-            "width": 3,
-            "height": 4,
-            "unit": "px"
-          },
+          "label": "Color Photograph",
           "fileSize": {
-            "min": 10,
-            "max": 50,
+            "min": 5,
+            "max": 600,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG", "PNG"],
+          "colorMode": "color",
+          "required": true,
+          "description": "Face must cover 60-70% of the photograph",
+          "advancedValidation": {
+            "dimensionRange": {
+              "width": { "min": 200, "max": 530 },
+              "height": { "min": 260, "max": 690 },
+              "unit": "px"
+            },
+            "aspectRatioRange": {
+              "min": 0.66,
+              "max": 0.89
+            },
+            "contentCoverage": {
+              "type": "face",
+              "min": 60,
+              "max": 70
+            },
+            "validationLevel": "strict"
+          }
+        },
+        {
+          "type": "signature",
+          "label": "Digital Signature",
+          "fileSize": {
+            "min": 3,
+            "max": 300,
             "unit": "KB"
           },
           "format": ["JPG", "JPEG"],
-          "dpi": 200,
-          "aspectRatio": "3:4",
-          "colorMode": "color",
           "required": true,
-          "description": "64pt font size recommendation, recent colored photograph"
+          "description": "Blue or black ink only, signature must occupy 70-80% of image",
+          "advancedValidation": {
+            "dimensionRange": {
+              "width": { "min": 250, "max": 580 },
+              "height": { "min": 80, "max": 180 },
+              "unit": "px"
+            },
+            "aspectRatioRange": {
+              "min": 2.75,
+              "max": 3.75
+            },
+            "contentCoverage": {
+              "type": "signature",
+              "min": 70,
+              "max": 80
+            },
+            "validationLevel": "strict"
+          }
+        },
+        {
+          "type": "document",
+          "label": "Photo ID",
+          "fileSize": {
+            "min": 10,
+            "max": 600,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": true,
+          "description": "Must match selection and details provided in Personal Details tab",
+          "advancedValidation": {
+            "validationLevel": "basic"
+          }
         }
       ],
       "isPopular": true,
-      "searchTags": ["gate", "iit", "engineering", "postgraduate", "mtech"]
+      "searchTags": ["gate", "iit", "engineering", "postgraduate", "mtech", "2025"]
     },
     {
       "id": "cds-2024",
