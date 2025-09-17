@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "lastUpdated": "2025-09-14T18:45:00.000Z",
+  "version": "1.0.1",
+  "lastUpdated": "2025-09-17T16:15:00.000Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -126,58 +126,99 @@
       "searchTags": ["gate", "iit", "engineering", "postgraduate", "mtech", "2025"]
     },
     {
-      "id": "cds-2024",
-      "name": "Combined Defence Services",
-      "shortName": "CDS",
-      "category": "defence",
-      "organizer": "UPSC",
-      "examType": "competitive",
+      "id": "jee-main",
+      "name": "Joint Entrance Examination Main",
+      "shortName": "JEE Main",
+      "category": "engineering",
+      "organizer": "NTA",
+      "examType": "entrance",
       "requirements": [
         {
-          "type": "photo",
-          "label": "Passport Photo",
+          "type": "signature",
+          "label": "Signature",
           "dimensions": {
-            "width": 140,
-            "height": 110,
-            "unit": "px"
+            "width": 35,
+            "height": 45,
+            "unit": "mm"
           },
           "fileSize": {
-            "min": 10,
-            "max": 20,
+            "min": 4,
+            "max": 50,
             "unit": "KB"
           },
           "format": ["JPG", "JPEG"],
-          "dpi": 200,
-          "aspectRatio": "3:4",
-          "colorMode": "color",
+          "dpi": 300,
           "required": true,
-          "description": "14pt minimum font size, colored passport photo"
+          "description": "Digital signature on white background with black/blue pen"
         },
         {
-          "type": "signature",
-          "label": "Digital Signature",
-          "dimensions": {
-            "width": 140,
-            "height": 110,
-            "unit": "px"
-          },
+          "type": "document",
+          "label": "Valid Photo Identity",
           "fileSize": {
-            "min": 10,
-            "max": 20,
+            "min": 50,
+            "max": 300,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": ["PDF"],
           "required": true,
-          "description": "Clear signature on white background"
+          "description": "Valid government-issued photo identity document"
+        },
+        {
+          "type": "document",
+          "label": "Class 10 Marksheet",
+          "fileSize": {
+            "min": 10,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": true,
+          "description": "Class 10th marksheet or equivalent certificate"
+        },
+        {
+          "type": "document",
+          "label": "Class 12 Marksheet/Admit Card",
+          "fileSize": {
+            "min": 50,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": true,
+          "description": "Class 12th marksheet or admit card"
+        },
+        {
+          "type": "document",
+          "label": "Category Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": false,
+          "description": "Caste/category certificate (if applicable for reserved categories)"
+        },
+        {
+          "type": "document",
+          "label": "PWD Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": false,
+          "description": "Person with Disability certificate (if applicable)"
         }
       ],
       "isPopular": true,
-      "searchTags": ["cds", "upsc", "defence", "army", "navy", "airforce"]
+      "searchTags": ["jee", "main", "nta", "engineering", "entrance", "iit", "nit"]
     },
     {
-      "id": "net-2024",
-      "name": "National Eligibility Test",
-      "shortName": "NET",
+      "id": "ugc-net",
+      "name": "University Grants Commission National Eligibility Test",
+      "shortName": "UGC NET",
       "category": "other",
       "organizer": "NTA",
       "examType": "competitive",
@@ -185,77 +226,9 @@
         {
           "type": "photo",
           "label": "Photograph",
-          "dimensions": {
-            "width": 140,
-            "height": 110,
-            "unit": "px"
-          },
           "fileSize": {
             "min": 10,
-            "max": 20,
-            "unit": "KB"
-          },
-          "format": ["JPG", "JPEG"],
-          "dpi": 200,
-          "aspectRatio": "3:4",
-          "colorMode": "color",
-          "required": true,
-          "description": "23pt font size, recent colored photograph"
-        }
-      ],
-      "isPopular": true,
-      "searchTags": ["net", "nta", "ugc", "professor", "assistant professor", "jrf"]
-    },
-    {
-      "id": "ssc-cgl",
-      "name": "Staff Selection Commission Combined Graduate Level",
-      "shortName": "SSC CGL",
-      "category": "ssc",
-      "organizer": "SSC",
-      "examType": "competitive",
-      "requirements": [
-        {
-          "type": "photo",
-          "label": "Passport Size Photo",
-          "fileSize": {
-            "min": 4,
-            "max": 12,
-            "unit": "KB"
-          },
-          "format": ["JPG", "JPEG"],
-          "required": true,
-          "description": "Recent colored passport photograph"
-        },
-        {
-          "type": "signature",
-          "label": "Signature",
-          "fileSize": {
-            "min": 1,
-            "max": 12,
-            "unit": "KB"
-          },
-          "format": ["JPG", "JPEG"],
-          "required": true,
-          "description": "Signature on white paper with black/blue pen"
-        }
-      ],
-      "isPopular": true,
-      "searchTags": ["ssc", "cgl", "government", "clerk", "assistant", "inspector"]
-    },
-    {
-      "id": "ibps-po",
-      "name": "Institute of Banking Personnel Selection - Probationary Officer",
-      "shortName": "IBPS PO",
-      "category": "banking",
-      "organizer": "IBPS",
-      "examType": "competitive",
-      "requirements": [
-        {
-          "type": "photo",
-          "label": "Passport Photograph",
-          "fileSize": {
-            "min": 4,
-            "max": 12,
+            "max": 200,
             "unit": "KB"
           },
           "format": ["JPG", "JPEG"],
@@ -266,166 +239,85 @@
           "type": "signature",
           "label": "Signature",
           "fileSize": {
-            "min": 1,
-            "max": 12,
+            "min": 4,
+            "max": 30,
             "unit": "KB"
           },
           "format": ["JPG", "JPEG"],
           "required": true,
-          "description": "Signature with black/blue pen on white paper"
-        }
-      ],
-      "isPopular": true,
-      "searchTags": ["ibps", "po", "banking", "probationary officer", "bank"]
-    },
-    {
-      "id": "neet",
-      "name": "National Eligibility cum Entrance Test",
-      "shortName": "NEET",
-      "category": "medical",
-      "organizer": "NTA",
-      "examType": "entrance",
-      "requirements": [
-        {
-          "type": "photo",
-          "label": "Passport Size Photo",
-          "dimensions": {
-            "width": 25,
-            "height": 35,
-            "unit": "mm"
-          },
-          "fileSize": {
-            "min": 10,
-            "max": 200,
-            "unit": "KB"
-          },
-          "format": ["JPG", "JPEG", "PNG"],
-          "dpi": 300,
-          "aspectRatio": "5:7",
-          "colorMode": "color",
-          "required": true,
-          "description": "Recent passport size colored photograph, 80% face coverage"
+          "description": "Digital signature on white background with black/blue pen"
         },
         {
-          "type": "signature",
-          "label": "Signature",
-          "dimensions": {
-            "width": 30,
-            "height": 15,
-            "unit": "mm"
-          },
+          "type": "document",
+          "label": "Valid ID Proof",
           "fileSize": {
-            "min": 1,
-            "max": 30,
+            "min": 50,
+            "max": 300,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG", "PNG"],
+          "format": ["PDF"],
           "required": true,
-          "description": "Signature on white background with black/blue pen"
+          "description": "Valid government-issued photo identity document"
+        },
+        {
+          "type": "document",
+          "label": "Category Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": false,
+          "description": "Caste/category certificate (if applicable for reserved categories)"
+        },
+        {
+          "type": "document",
+          "label": "PWD Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": false,
+          "description": "Person with Disability certificate (if applicable)"
         }
       ],
       "isPopular": true,
-      "searchTags": ["neet", "medical", "mbbs", "bds", "ayush", "doctor"]
+      "searchTags": ["ugc", "net", "nta", "professor", "assistant professor", "jrf", "lecturer"]
     },
     {
-      "id": "jee-main",
-      "name": "Joint Entrance Examination Main",
-      "shortName": "JEE Main",
-      "category": "engineering",
-      "organizer": "NTA",
-      "examType": "entrance",
+      "id": "ibps-csa",
+      "name": "Institute of Banking Personnel Selection - Customer Service Associates",
+      "shortName": "IBPS CSA",
+      "category": "banking",
+      "organizer": "IBPS",
+      "examType": "competitive",
       "requirements": [
         {
           "type": "photo",
           "label": "Photograph",
           "dimensions": {
-            "width": 25,
-            "height": 35,
-            "unit": "mm"
+            "width": 200,
+            "height": 230,
+            "unit": "px"
           },
           "fileSize": {
-            "min": 10,
-            "max": 200,
-            "unit": "KB"
-          },
-          "format": ["JPG", "JPEG", "PNG"],
-          "dpi": 300,
-          "aspectRatio": "5:7",
-          "colorMode": "color",
-          "required": true,
-          "description": "Recent passport size photograph, 80% face coverage"
-        },
-        {
-          "type": "signature",
-          "label": "Signature",
-          "dimensions": {
-            "width": 30,
-            "height": 15,
-            "unit": "mm"
-          },
-          "fileSize": {
-            "min": 1,
-            "max": 30,
-            "unit": "KB"
-          },
-          "format": ["JPG", "JPEG", "PNG"],
-          "required": true,
-          "description": "Clear signature with black/blue pen"
-        }
-      ],
-      "isPopular": true,
-      "searchTags": ["jee", "main", "iit", "nit", "engineering", "entrance"]
-    },
-    {
-      "id": "rrb-ntpc",
-      "name": "Railway Recruitment Board Non-Technical Popular Categories",
-      "shortName": "RRB NTPC",
-      "category": "railway",
-      "organizer": "RRB",
-      "examType": "competitive",
-      "requirements": [
-        {
-          "type": "photo",
-          "label": "Recent Passport Size Photo",
-          "fileSize": {
-            "min": 15,
-            "max": 40,
+            "min": 20,
+            "max": 50,
             "unit": "KB"
           },
           "format": ["JPG", "JPEG"],
           "required": true,
-          "description": "Recent colored passport photograph"
+          "description": "Passport size photograph (4.5cm × 3.5cm, 200×230 pixels)"
         },
         {
           "type": "signature",
           "label": "Signature",
-          "fileSize": {
-            "min": 5,
-            "max": 20,
-            "unit": "KB"
-          },
-          "format": ["JPG", "JPEG"],
-          "required": true,
-          "description": "Signature on white background"
-        }
-      ],
-      "isPopular": true,
-      "searchTags": ["rrb", "ntpc", "railway", "station master", "clerk", "asi"]
-    },
-    {
-      "id": "capf-ac",
-      "name": "Central Armed Police Forces Assistant Commandant",
-      "shortName": "CAPF AC",
-      "category": "defence",
-      "organizer": "UPSC",
-      "examType": "competitive",
-      "requirements": [
-        {
-          "type": "photo",
-          "label": "Passport Size Photo",
           "dimensions": {
             "width": 140,
-            "height": 110,
+            "height": 60,
             "unit": "px"
           },
           "fileSize": {
@@ -435,28 +327,59 @@
           },
           "format": ["JPG", "JPEG"],
           "required": true,
-          "description": "Recent colored passport photograph"
+          "description": "Digital signature (140×60 pixels)"
         },
         {
-          "type": "signature",
-          "label": "Signature",
+          "type": "thumb",
+          "label": "Thumb Impression",
           "dimensions": {
-            "width": 140,
-            "height": 110,
+            "width": 240,
+            "height": 240,
             "unit": "px"
           },
           "fileSize": {
-            "min": 10,
-            "max": 20,
+            "min": 20,
+            "max": 50,
             "unit": "KB"
           },
           "format": ["JPG", "JPEG"],
+          "dpi": 200,
           "required": true,
-          "description": "Signature on white background"
+          "description": "Left thumb impression (3cm×3cm, 240×240 pixels, 200 DPI)"
+        },
+        {
+          "type": "handwriting",
+          "label": "Hand Written Declaration",
+          "dimensions": {
+            "width": 800,
+            "height": 400,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 50,
+            "max": 100,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "dpi": 200,
+          "required": true,
+          "description": "Handwritten declaration (10cm×5cm, 800×400 pixels, 200 DPI)"
+        },
+        {
+          "type": "document",
+          "label": "SSC/SSLC/10th Equivalent Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": true,
+          "description": "Class 10th certificate in PDF format, A4 page size"
         }
       ],
-      "isPopular": false,
-      "searchTags": ["capf", "assistant commandant", "upsc", "crpf", "bsf", "cisf"]
+      "isPopular": true,
+      "searchTags": ["ibps", "csa", "customer service", "banking", "clerk"]
     },
     {
       "id": "sbi-po",
@@ -468,31 +391,522 @@
       "requirements": [
         {
           "type": "photo",
-          "label": "Recent Photo",
+          "label": "Photograph",
+          "dimensions": {
+            "width": 200,
+            "height": 230,
+            "unit": "px"
+          },
           "fileSize": {
-            "min": 4,
-            "max": 12,
+            "min": 20,
+            "max": 50,
             "unit": "KB"
           },
           "format": ["JPG", "JPEG"],
           "required": true,
-          "description": "Recent passport size photograph"
+          "description": "Passport size photograph (4.5cm × 3.5cm, 200×230 pixels)"
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "dimensions": {
+            "width": 140,
+            "height": 60,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 20,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Digital signature (140×60 pixels)"
+        },
+        {
+          "type": "thumb",
+          "label": "Left Thumb Impression",
+          "dimensions": {
+            "width": 240,
+            "height": 240,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 20,
+            "max": 50,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "dpi": 200,
+          "required": true,
+          "description": "Left thumb impression (3cm×3cm, 240×240 pixels, 200 DPI)"
+        },
+        {
+          "type": "handwriting",
+          "label": "Hand Written Declaration",
+          "dimensions": {
+            "width": 800,
+            "height": 400,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 50,
+            "max": 100,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "dpi": 200,
+          "required": true,
+          "description": "Handwritten declaration (10cm×5cm, 800×400 pixels, 200 DPI)"
+        },
+        {
+          "type": "document",
+          "label": "Category Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": false,
+          "description": "Caste/category certificate (if applicable for reserved categories)"
+        },
+        {
+          "type": "document",
+          "label": "Class 10 Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": true,
+          "description": "Class 10th marksheet or certificate"
+        },
+        {
+          "type": "document",
+          "label": "Class 12 Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": true,
+          "description": "Class 12th marksheet or certificate"
+        },
+        {
+          "type": "document",
+          "label": "Graduation Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": true,
+          "description": "Bachelor's degree certificate or marksheet"
+        }
+      ],
+      "isPopular": true,
+      "searchTags": ["sbi", "po", "state bank", "probationary officer", "banking"]
+    },
+    {
+      "id": "ib-jio",
+      "name": "Intelligence Bureau Junior Intelligence Officer Grade II",
+      "shortName": "IB JIO",
+      "category": "defence",
+      "organizer": "Intelligence Bureau",
+      "examType": "competitive",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Photograph",
+          "dimensions": {
+            "width": 35,
+            "height": 45,
+            "unit": "mm"
+          },
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Passport size photograph (35mm × 45mm)"
         },
         {
           "type": "signature",
           "label": "Signature",
           "fileSize": {
-            "min": 1,
-            "max": 12,
+            "min": 80,
+            "max": 150,
             "unit": "KB"
           },
           "format": ["JPG", "JPEG"],
           "required": true,
-          "description": "Candidate signature with black/blue pen"
+          "description": "Digital signature on white background"
+        },
+        {
+          "type": "document",
+          "label": "Valid Photo Identity",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": true,
+          "description": "Valid government-issued photo identity document"
+        },
+        {
+          "type": "document",
+          "label": "Certificate/Marksheet Class 10",
+          "fileSize": {
+            "min": 50,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": true,
+          "description": "Class 10th certificate or marksheet"
+        },
+        {
+          "type": "document",
+          "label": "Certificate/Marksheet Class 12",
+          "fileSize": {
+            "min": 50,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": true,
+          "description": "Class 12th certificate or marksheet"
+        },
+        {
+          "type": "document",
+          "label": "Diploma/Graduation Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": true,
+          "description": "Diploma or graduation certificate/marksheet"
+        },
+        {
+          "type": "document",
+          "label": "Category Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": false,
+          "description": "Caste/category certificate (if applicable for reserved categories)"
         }
       ],
       "isPopular": true,
-      "searchTags": ["sbi", "po", "state bank", "probationary officer", "banking"]
+      "searchTags": ["ib", "intelligence bureau", "jio", "junior intelligence officer", "defence", "security"]
+    },
+    {
+      "id": "lic-aao",
+      "name": "Life Insurance Corporation Assistant Administrative Officers Generalist",
+      "shortName": "LIC AAO",
+      "category": "other",
+      "organizer": "LIC",
+      "examType": "competitive",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Photograph",
+          "dimensions": {
+            "width": 200,
+            "height": 230,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 20,
+            "max": 50,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Passport size photograph (4.5cm × 3.5cm, 200×230 pixels)"
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "dimensions": {
+            "width": 140,
+            "height": 60,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 20,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Digital signature (140×60 pixels)"
+        },
+        {
+          "type": "thumb",
+          "label": "Left Thumb Impression",
+          "dimensions": {
+            "width": 240,
+            "height": 240,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 20,
+            "max": 50,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "dpi": 200,
+          "required": true,
+          "description": "Left thumb impression (3cm×3cm, 240×240 pixels, 200 DPI)"
+        },
+        {
+          "type": "handwriting",
+          "label": "Hand Written Declaration",
+          "dimensions": {
+            "width": 800,
+            "height": 400,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 50,
+            "max": 100,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "dpi": 200,
+          "required": true,
+          "description": "Handwritten declaration (10cm×5cm, 800×400 pixels, 200 DPI)"
+        },
+        {
+          "type": "document",
+          "label": "Valid ID Proof",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": true,
+          "description": "Valid government-issued photo identity document"
+        },
+        {
+          "type": "document",
+          "label": "Age Proof",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": true,
+          "description": "Valid age proof document (birth certificate, etc.)"
+        },
+        {
+          "type": "document",
+          "label": "Education Certificate (Bachelor)",
+          "fileSize": {
+            "min": 50,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": true,
+          "description": "Bachelor's degree certificate or marksheet"
+        },
+        {
+          "type": "document",
+          "label": "Category Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": false,
+          "description": "Caste/category certificate (if applicable for reserved categories)"
+        },
+        {
+          "type": "document",
+          "label": "EWS Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": false,
+          "description": "Economically Weaker Section certificate (if applicable)"
+        },
+        {
+          "type": "document",
+          "label": "Disability Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": false,
+          "description": "Person with Disability certificate (if applicable)"
+        }
+      ],
+      "isPopular": true,
+      "searchTags": ["lic", "aao", "assistant administrative officer", "insurance", "generalist"]
+    },
+    {
+      "id": "neet",
+      "name": "National Eligibility cum Entrance Test",
+      "shortName": "NEET",
+      "category": "medical",
+      "organizer": "NTA",
+      "examType": "entrance",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Passport Photo",
+          "dimensions": {
+            "width": 2.5,
+            "height": 3.5,
+            "unit": "inch"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Passport size photograph (2.5 × 3.5 inches)"
+        },
+        {
+          "type": "photo",
+          "label": "Postcard Size Photo",
+          "dimensions": {
+            "width": 4,
+            "height": 6,
+            "unit": "inch"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Postcard size photograph (4 × 6 inches)"
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "fileSize": {
+            "min": 4,
+            "max": 30,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Digital signature on white background"
+        },
+        {
+          "type": "document",
+          "label": "Valid ID Proof",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": true,
+          "description": "Valid government-issued photo identity document"
+        },
+        {
+          "type": "thumb",
+          "label": "Left Thumb Impression",
+          "fileSize": {
+            "min": 10,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Left thumb impression on white background"
+        },
+        {
+          "type": "thumb",
+          "label": "Right Thumb Impression",
+          "fileSize": {
+            "min": 10,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": ["JPG", "JPEG"],
+          "required": true,
+          "description": "Right thumb impression on white background"
+        },
+        {
+          "type": "document",
+          "label": "Class 10 Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": true,
+          "description": "Class 10th certificate or marksheet"
+        },
+        {
+          "type": "document",
+          "label": "Category Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": false,
+          "description": "Caste/category certificate (if applicable for reserved categories)"
+        },
+        {
+          "type": "document",
+          "label": "Address Proof",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": true,
+          "description": "Valid address proof document"
+        },
+        {
+          "type": "document",
+          "label": "PWD Certificate/NRI/OCI",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": ["PDF"],
+          "required": false,
+          "description": "PWD certificate or NRI/OCI documents (if applicable)"
+        }
+      ],
+      "isPopular": true,
+      "searchTags": ["neet", "medical", "nta", "mbbs", "bds", "ayush", "entrance"]
     }
   ]
 }
