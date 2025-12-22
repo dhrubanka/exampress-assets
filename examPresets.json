@@ -1,6 +1,6 @@
 {
-  "version": "1.0.1",
-  "lastUpdated": "2025-09-17T16:15:00.000Z",
+  "version": "1.0.2",
+  "lastUpdated": "2025-12-22T09:51:00.000Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -55,14 +55,24 @@
             "max": 600,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG", "PNG"],
+          "format": [
+            "JPG",
+            "JPEG",
+            "PNG"
+          ],
           "colorMode": "color",
           "required": true,
           "description": "Face must cover 60-70% of the photograph",
           "advancedValidation": {
             "dimensionRange": {
-              "width": { "min": 200, "max": 530 },
-              "height": { "min": 260, "max": 690 },
+              "width": {
+                "min": 200,
+                "max": 530
+              },
+              "height": {
+                "min": 260,
+                "max": 690
+              },
               "unit": "px"
             },
             "aspectRatioRange": {
@@ -85,13 +95,22 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "required": true,
           "description": "Blue or black ink only, signature must occupy 70-80% of image",
           "advancedValidation": {
             "dimensionRange": {
-              "width": { "min": 250, "max": 580 },
-              "height": { "min": 80, "max": 180 },
+              "width": {
+                "min": 250,
+                "max": 580
+              },
+              "height": {
+                "min": 80,
+                "max": 180
+              },
               "unit": "px"
             },
             "aspectRatioRange": {
@@ -114,16 +133,32 @@
             "max": 600,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
           "description": "Must match selection and details provided in Personal Details tab",
+          "acceptedDocTypes": [
+            "Aadhaar Card",
+            "Passport",
+            "PAN Card",
+            "Voter ID",
+            "Driving License"
+          ],
           "advancedValidation": {
             "validationLevel": "basic"
           }
         }
       ],
       "isPopular": true,
-      "searchTags": ["gate", "iit", "engineering", "postgraduate", "mtech", "2025"]
+      "searchTags": [
+        "gate",
+        "iit",
+        "engineering",
+        "postgraduate",
+        "mtech",
+        "2025"
+      ]
     },
     {
       "id": "jee-main",
@@ -146,7 +181,10 @@
             "max": 50,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "dpi": 300,
           "required": true,
           "description": "Digital signature on white background with black/blue pen"
@@ -159,9 +197,19 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Valid government-issued photo identity document"
+          "description": "Valid government-issued photo identity document",
+          "acceptedDocTypes": [
+            "Aadhaar Card",
+            "PAN Card",
+            "Voter ID",
+            "Passport",
+            "Driving License",
+            "School Identity Card"
+          ]
         },
         {
           "type": "document",
@@ -171,9 +219,15 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Class 10th marksheet or equivalent certificate"
+          "description": "Class 10th marksheet or equivalent certificate",
+          "acceptedDocTypes": [
+            "Class 10 Marksheet",
+            "Matriculation Certificate"
+          ]
         },
         {
           "type": "document",
@@ -183,9 +237,15 @@
             "max": 500,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Class 12th marksheet or admit card"
+          "description": "Class 12th marksheet or admit card",
+          "acceptedDocTypes": [
+            "Class 12 Marksheet",
+            "Class 12 Admit Card"
+          ]
         },
         {
           "type": "document",
@@ -195,9 +255,17 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": false,
-          "description": "Caste/category certificate (if applicable for reserved categories)"
+          "description": "Caste/category certificate (if applicable for reserved categories)",
+          "acceptedDocTypes": [
+            "SC Certificate",
+            "ST Certificate",
+            "OBC-NCL Certificate",
+            "EWS Certificate"
+          ]
         },
         {
           "type": "document",
@@ -207,13 +275,26 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": false,
-          "description": "Person with Disability certificate (if applicable)"
+          "description": "Person with Disability certificate (if applicable)",
+          "acceptedDocTypes": [
+            "PwD Certificate"
+          ]
         }
       ],
       "isPopular": true,
-      "searchTags": ["jee", "main", "nta", "engineering", "entrance", "iit", "nit"]
+      "searchTags": [
+        "jee",
+        "main",
+        "nta",
+        "engineering",
+        "entrance",
+        "iit",
+        "nit"
+      ]
     },
     {
       "id": "ugc-net",
@@ -231,7 +312,10 @@
             "max": 200,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "required": true,
           "description": "Recent passport size colored photograph"
         },
@@ -243,7 +327,10 @@
             "max": 30,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "required": true,
           "description": "Digital signature on white background with black/blue pen"
         },
@@ -255,9 +342,18 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Valid government-issued photo identity document"
+          "description": "Valid government-issued photo identity document",
+          "acceptedDocTypes": [
+            "Aadhaar Card",
+            "PAN Card",
+            "Voter ID",
+            "Passport",
+            "Driving License"
+          ]
         },
         {
           "type": "document",
@@ -267,9 +363,17 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": false,
-          "description": "Caste/category certificate (if applicable for reserved categories)"
+          "description": "Caste/category certificate (if applicable for reserved categories)",
+          "acceptedDocTypes": [
+            "SC Certificate",
+            "ST Certificate",
+            "OBC-NCL Certificate",
+            "EWS Certificate"
+          ]
         },
         {
           "type": "document",
@@ -279,13 +383,26 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": false,
-          "description": "Person with Disability certificate (if applicable)"
+          "description": "Person with Disability certificate (if applicable)",
+          "acceptedDocTypes": [
+            "PwD Certificate"
+          ]
         }
       ],
       "isPopular": true,
-      "searchTags": ["ugc", "net", "nta", "professor", "assistant professor", "jrf", "lecturer"]
+      "searchTags": [
+        "ugc",
+        "net",
+        "nta",
+        "professor",
+        "assistant professor",
+        "jrf",
+        "lecturer"
+      ]
     },
     {
       "id": "ibps-csa",
@@ -308,7 +425,10 @@
             "max": 50,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "required": true,
           "description": "Passport size photograph (4.5cm × 3.5cm, 200×230 pixels)"
         },
@@ -325,7 +445,10 @@
             "max": 20,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "required": true,
           "description": "Digital signature (140×60 pixels)"
         },
@@ -342,7 +465,10 @@
             "max": 50,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "dpi": 200,
           "required": true,
           "description": "Left thumb impression (3cm×3cm, 240×240 pixels, 200 DPI)"
@@ -360,7 +486,10 @@
             "max": 100,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "dpi": 200,
           "required": true,
           "description": "Handwritten declaration (10cm×5cm, 800×400 pixels, 200 DPI)"
@@ -373,13 +502,26 @@
             "max": 500,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Class 10th certificate in PDF format, A4 page size"
+          "description": "Class 10th certificate in PDF format, A4 page size",
+          "acceptedDocTypes": [
+            "SSC Certificate",
+            "SSLC Certificate",
+            "Class 10 Certificate"
+          ]
         }
       ],
       "isPopular": true,
-      "searchTags": ["ibps", "csa", "customer service", "banking", "clerk"]
+      "searchTags": [
+        "ibps",
+        "csa",
+        "customer service",
+        "banking",
+        "clerk"
+      ]
     },
     {
       "id": "sbi-po",
@@ -402,7 +544,10 @@
             "max": 50,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "required": true,
           "description": "Passport size photograph (4.5cm × 3.5cm, 200×230 pixels)"
         },
@@ -419,7 +564,10 @@
             "max": 20,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "required": true,
           "description": "Digital signature (140×60 pixels)"
         },
@@ -436,7 +584,10 @@
             "max": 50,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "dpi": 200,
           "required": true,
           "description": "Left thumb impression (3cm×3cm, 240×240 pixels, 200 DPI)"
@@ -454,7 +605,10 @@
             "max": 100,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "dpi": 200,
           "required": true,
           "description": "Handwritten declaration (10cm×5cm, 800×400 pixels, 200 DPI)"
@@ -467,9 +621,17 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": false,
-          "description": "Caste/category certificate (if applicable for reserved categories)"
+          "description": "Caste/category certificate (if applicable for reserved categories)",
+          "acceptedDocTypes": [
+            "SC Certificate",
+            "ST Certificate",
+            "OBC-NCL Certificate",
+            "EWS Certificate"
+          ]
         },
         {
           "type": "document",
@@ -479,9 +641,15 @@
             "max": 500,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Class 10th marksheet or certificate"
+          "description": "Class 10th marksheet or certificate",
+          "acceptedDocTypes": [
+            "Class 10 Marksheet",
+            "Class 10 Certificate"
+          ]
         },
         {
           "type": "document",
@@ -491,9 +659,15 @@
             "max": 500,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Class 12th marksheet or certificate"
+          "description": "Class 12th marksheet or certificate",
+          "acceptedDocTypes": [
+            "Class 12 Marksheet",
+            "Class 12 Certificate"
+          ]
         },
         {
           "type": "document",
@@ -503,13 +677,25 @@
             "max": 500,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Bachelor's degree certificate or marksheet"
+          "description": "Bachelor's degree certificate or marksheet",
+          "acceptedDocTypes": [
+            "Bachelor's Degree Certificate",
+            "Graduation Marksheet"
+          ]
         }
       ],
       "isPopular": true,
-      "searchTags": ["sbi", "po", "state bank", "probationary officer", "banking"]
+      "searchTags": [
+        "sbi",
+        "po",
+        "state bank",
+        "probationary officer",
+        "banking"
+      ]
     },
     {
       "id": "ib-jio",
@@ -532,7 +718,10 @@
             "max": 200,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "required": true,
           "description": "Passport size photograph (35mm × 45mm)"
         },
@@ -544,7 +733,10 @@
             "max": 150,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "required": true,
           "description": "Digital signature on white background"
         },
@@ -556,9 +748,18 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Valid government-issued photo identity document"
+          "description": "Valid government-issued photo identity document",
+          "acceptedDocTypes": [
+            "Aadhaar Card",
+            "PAN Card",
+            "Voter ID",
+            "Passport",
+            "Driving License"
+          ]
         },
         {
           "type": "document",
@@ -568,9 +769,15 @@
             "max": 500,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Class 10th certificate or marksheet"
+          "description": "Class 10th certificate or marksheet",
+          "acceptedDocTypes": [
+            "Class 10 Certificate",
+            "Class 10 Marksheet"
+          ]
         },
         {
           "type": "document",
@@ -580,9 +787,15 @@
             "max": 500,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Class 12th certificate or marksheet"
+          "description": "Class 12th certificate or marksheet",
+          "acceptedDocTypes": [
+            "Class 12 Certificate",
+            "Class 12 Marksheet"
+          ]
         },
         {
           "type": "document",
@@ -592,9 +805,17 @@
             "max": 500,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Diploma or graduation certificate/marksheet"
+          "description": "Diploma or graduation certificate/marksheet",
+          "acceptedDocTypes": [
+            "Diploma Certificate",
+            "Diploma Marksheet",
+            "Graduation Certificate",
+            "Graduation Marksheet"
+          ]
         },
         {
           "type": "document",
@@ -604,13 +825,28 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": false,
-          "description": "Caste/category certificate (if applicable for reserved categories)"
+          "description": "Caste/category certificate (if applicable for reserved categories)",
+          "acceptedDocTypes": [
+            "SC Certificate",
+            "ST Certificate",
+            "OBC Certificate",
+            "EWS Certificate"
+          ]
         }
       ],
       "isPopular": true,
-      "searchTags": ["ib", "intelligence bureau", "jio", "junior intelligence officer", "defence", "security"]
+      "searchTags": [
+        "ib",
+        "intelligence bureau",
+        "jio",
+        "junior intelligence officer",
+        "defence",
+        "security"
+      ]
     },
     {
       "id": "lic-aao",
@@ -633,7 +869,10 @@
             "max": 50,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "required": true,
           "description": "Passport size photograph (4.5cm × 3.5cm, 200×230 pixels)"
         },
@@ -650,7 +889,10 @@
             "max": 20,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "required": true,
           "description": "Digital signature (140×60 pixels)"
         },
@@ -667,7 +909,10 @@
             "max": 50,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "dpi": 200,
           "required": true,
           "description": "Left thumb impression (3cm×3cm, 240×240 pixels, 200 DPI)"
@@ -685,7 +930,10 @@
             "max": 100,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "dpi": 200,
           "required": true,
           "description": "Handwritten declaration (10cm×5cm, 800×400 pixels, 200 DPI)"
@@ -698,9 +946,21 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Valid government-issued photo identity document"
+          "description": "Valid government-issued photo identity document",
+          "acceptedDocTypes": [
+            "PAN Card",
+            "Passport",
+            "Driving License",
+            "Voter ID",
+            "Bank Passbook with photograph",
+            "Aadhaar Card",
+            "Employee ID",
+            "Bar Council Identity Card"
+          ]
         },
         {
           "type": "document",
@@ -710,9 +970,15 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Valid age proof document (birth certificate, etc.)"
+          "description": "Valid age proof document (birth certificate, etc.)",
+          "acceptedDocTypes": [
+            "Birth Certificate",
+            "Class 10 Certificate"
+          ]
         },
         {
           "type": "document",
@@ -722,9 +988,15 @@
             "max": 500,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Bachelor's degree certificate or marksheet"
+          "description": "Bachelor's degree certificate or marksheet",
+          "acceptedDocTypes": [
+            "Bachelor's Degree Certificate",
+            "Graduation Marksheet"
+          ]
         },
         {
           "type": "document",
@@ -734,9 +1006,16 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": false,
-          "description": "Caste/category certificate (if applicable for reserved categories)"
+          "description": "Caste/category certificate (if applicable for reserved categories)",
+          "acceptedDocTypes": [
+            "SC Certificate",
+            "ST Certificate",
+            "OBC Certificate"
+          ]
         },
         {
           "type": "document",
@@ -746,9 +1025,14 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": false,
-          "description": "Economically Weaker Section certificate (if applicable)"
+          "description": "Economically Weaker Section certificate (if applicable)",
+          "acceptedDocTypes": [
+            "EWS Certificate"
+          ]
         },
         {
           "type": "document",
@@ -758,13 +1042,24 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": false,
-          "description": "Person with Disability certificate (if applicable)"
+          "description": "Person with Disability certificate (if applicable)",
+          "acceptedDocTypes": [
+            "Disability Certificate"
+          ]
         }
       ],
       "isPopular": true,
-      "searchTags": ["lic", "aao", "assistant administrative officer", "insurance", "generalist"]
+      "searchTags": [
+        "lic",
+        "aao",
+        "assistant administrative officer",
+        "insurance",
+        "generalist"
+      ]
     },
     {
       "id": "neet",
@@ -787,7 +1082,10 @@
             "max": 200,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "required": true,
           "description": "Passport size photograph (2.5 × 3.5 inches)"
         },
@@ -804,7 +1102,10 @@
             "max": 200,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "required": true,
           "description": "Postcard size photograph (4 × 6 inches)"
         },
@@ -816,7 +1117,10 @@
             "max": 30,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "required": true,
           "description": "Digital signature on white background"
         },
@@ -828,9 +1132,20 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Valid government-issued photo identity document"
+          "description": "Valid government-issued photo identity document",
+          "acceptedDocTypes": [
+            "Aadhaar Card",
+            "Ration Card",
+            "Passport",
+            "PAN Card",
+            "Driving License",
+            "Voter ID",
+            "Class 12 Admit Card with Photograph"
+          ]
         },
         {
           "type": "thumb",
@@ -840,7 +1155,10 @@
             "max": 200,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "required": true,
           "description": "Left thumb impression on white background"
         },
@@ -852,7 +1170,10 @@
             "max": 200,
             "unit": "KB"
           },
-          "format": ["JPG", "JPEG"],
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
           "required": true,
           "description": "Right thumb impression on white background"
         },
@@ -864,9 +1185,15 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Class 10th certificate or marksheet"
+          "description": "Class 10th certificate or marksheet",
+          "acceptedDocTypes": [
+            "Class 10 Certificate",
+            "Class 10 Marksheet"
+          ]
         },
         {
           "type": "document",
@@ -876,9 +1203,17 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": false,
-          "description": "Caste/category certificate (if applicable for reserved categories)"
+          "description": "Caste/category certificate (if applicable for reserved categories)",
+          "acceptedDocTypes": [
+            "SC Certificate",
+            "ST Certificate",
+            "OBC-NCL Certificate",
+            "EWS Certificate"
+          ]
         },
         {
           "type": "document",
@@ -888,9 +1223,20 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": true,
-          "description": "Valid address proof document"
+          "description": "Valid address proof document",
+          "acceptedDocTypes": [
+            "Aadhaar Card",
+            "Passport",
+            "Voter ID Card",
+            "Ration Card",
+            "Driving License",
+            "Rent Agreement",
+            "Domicile Certificate"
+          ]
         },
         {
           "type": "document",
@@ -900,13 +1246,28 @@
             "max": 300,
             "unit": "KB"
           },
-          "format": ["PDF"],
+          "format": [
+            "PDF"
+          ],
           "required": false,
-          "description": "PWD certificate or NRI/OCI documents (if applicable)"
+          "description": "PWD certificate or NRI/OCI documents (if applicable)",
+          "acceptedDocTypes": [
+            "PWD Certificate",
+            "NRI Document",
+            "OCI Card"
+          ]
         }
       ],
       "isPopular": true,
-      "searchTags": ["neet", "medical", "nta", "mbbs", "bds", "ayush", "entrance"]
+      "searchTags": [
+        "neet",
+        "medical",
+        "nta",
+        "mbbs",
+        "bds",
+        "ayush",
+        "entrance"
+      ]
     }
   ]
 }
