@@ -1,6 +1,6 @@
 {
-  "version": "1.0.2",
-  "lastUpdated": "2025-12-22T09:51:00.000Z",
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-26T16:27:32.723Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -510,7 +510,7 @@
           "acceptedDocTypes": [
             "SSC Certificate",
             "SSLC Certificate",
-            "Class 10 Certificate"
+            "Class 10th Certificate"
           ]
         }
       ],
@@ -897,7 +897,7 @@
           "description": "Digital signature (140×60 pixels)"
         },
         {
-          "type": "thumb",
+          "type": "photo",
           "label": "Left Thumb Impression",
           "dimensions": {
             "width": 240,
@@ -918,7 +918,7 @@
           "description": "Left thumb impression (3cm×3cm, 240×240 pixels, 200 DPI)"
         },
         {
-          "type": "handwriting",
+          "type": "photo",
           "label": "Hand Written Declaration",
           "dimensions": {
             "width": 800,
