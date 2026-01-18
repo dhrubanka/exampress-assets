@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "lastUpdated": "2025-12-26T16:27:32.723Z",
+  "version": "1.2.0",
+  "lastUpdated": "2026-01-18T17:42:00.111Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -897,7 +897,7 @@
           "description": "Digital signature (140×60 pixels)"
         },
         {
-          "type": "photo",
+          "type": "thumb",
           "label": "Left Thumb Impression",
           "dimensions": {
             "width": 240,
@@ -1267,6 +1267,625 @@
         "bds",
         "ayush",
         "entrance"
+      ]
+    },
+    {
+      "id": "upsc-ur",
+      "name": "UPSC Universal Registration",
+      "shortName": "UPSC UR",
+      "category": "ssc",
+      "organizer": "UPSC",
+      "examType": "competitive",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Identity Card",
+          "fileSize": {
+            "min": 20,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": false,
+          "fileName": "id_card",
+          "description": "Optional if opting for photo ID instead of Aadhaar.  If not using Aadhaar/PAN/DL authentication, you may need to report an hour earlier than other candidates.",
+          "acceptedDocTypes": [
+            "Aadhaar Card",
+            "Passport",
+            "Govt Issued Photo ID Card",
+            "Voter ID (EPIC)"
+          ],
+          "importantInfo": "Guidelines for photo capture available on website, read them first to know how the photo should be taken"
+        },
+        {
+          "type": "document",
+          "label": "10th Class/Matriculation Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": false,
+          "fileName": "board_certificate",
+          "description": "10th class/matriculation/equivalent board examination certificate",
+          "acceptedDocTypes": []
+        }
+      ],
+      "isPopular": false,
+      "searchTags": [
+        "upsc",
+        "ur",
+        "universal registration",
+        "civil services",
+        "ias",
+        "ips"
+      ]
+    },
+    {
+      "id": "upsc-caf",
+      "name": "UPSC Common Application Form",
+      "shortName": "UPSC CAF",
+      "category": "ssc",
+      "organizer": "UPSC",
+      "examType": "competitive",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Passport Size Photo",
+          "fileSize": {
+            "min": 20,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "fileName": "photo",
+          "description": "Recent passport-size photograph with a clear front-facing view. No headwear, caps, or sunglasses allowed.",
+          "importantInfo": "Your face must cover at least 75% (three-fourths) of the photo area for the application to be accepted."
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "fileSize": {
+            "min": 20,
+            "max": 100,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "fileName": "signature",
+          "description": "Sign using a black ink pen on plain white paper. Ensure the image is well-lit with no shadows across the signature.",
+          "importantInfo": "Sign using a black ink pen on plain white paper. The signature must be clear and legible. Blurred or illegible signatures may lead to application rejection.",
+          "advancedValidation": {
+            "dimensionRange": {
+              "width": {
+                "min": 350,
+                "max": 500
+              },
+              "height": {
+                "min": 350,
+                "max": 500
+              },
+              "unit": "px"
+            },
+            "validationLevel": "strict"
+          }
+        },
+        {
+          "type": "document",
+          "label": "Caste Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": false,
+          "fileName": "caste_certificate",
+          "description": "Caste/category certificate (if applicable)",
+          "acceptedDocTypes": []
+        },
+        {
+          "type": "document",
+          "label": "Disability Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": false,
+          "fileName": "disability_certificate",
+          "description": "Disability certificate (if applicable)",
+          "acceptedDocTypes": [
+            "Disability Certificate",
+            "PwD Certificate",
+            "PWD Certificate"
+          ]
+        }
+      ],
+      "isPopular": true,
+      "searchTags": [
+        "upsc",
+        "caf",
+        "common application form",
+        "civil services",
+        "ias",
+        "ips",
+        "cse"
+      ]
+    },
+    {
+      "id": "bcece-jr-2026",
+      "name": "BCECE Junior Resident 2026",
+      "shortName": "BCECE JR",
+      "category": "medical",
+      "organizer": "BCECE Board",
+      "examType": "recruitment",
+      "formFillupStartDate": "2026-01-16",
+      "formFillupEndDate": "2026-02-06",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Colour Photograph",
+          "dimensions": {
+            "width": 200,
+            "height": 250,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "colorMode": "color",
+          "required": true,
+          "fileName": "{first 2 letter of name}_Photo",
+          "description": "80% of the photo should be covered with face including ears against white background",
+          "importantInfo": "80% of the photo should be covered with face including ears against white background"
+        },
+        {
+          "type": "signature",
+          "label": "English Signature",
+          "dimensions": {
+            "width": 300,
+            "height": 100,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 5,
+            "max": 50,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "fileName": "{first 2 letter of name}_EngSignature",
+          "description": "Clearly legible English signature",
+          "importantInfo": "Clearly legible English signature"
+        },
+        {
+          "type": "signature",
+          "label": "Hindi Signature",
+          "dimensions": {
+            "width": 300,
+            "height": 100,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 5,
+            "max": 50,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "fileName": "{first 2 letter of name}_HindiSignature",
+          "description": "Clearly legible Hindi signature",
+          "importantInfo": "Clearly legible Hindi signature"
+        }
+      ],
+      "isPopular": true,
+      "searchTags": [
+        "bcece",
+        "junior resident",
+        "medical",
+        "bihar",
+        "2026",
+        "doctor",
+        "engineering",
+        "bds",
+        "mbbs"
+      ]
+    },
+    {
+      "id": "rbi-office-attendant-2026",
+      "name": "RBI Bank Office Attendant",
+      "shortName": "RBI OA",
+      "category": "banking",
+      "organizer": "RBI",
+      "examType": "recruitment",
+      "formFillupStartDate": "2026-01-15",
+      "formFillupEndDate": "2026-02-04",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Photograph",
+          "dimensions": {
+            "width": 200,
+            "height": 230,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 20,
+            "max": 50,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "colorMode": "color",
+          "required": true,
+          "description": "Passport size photograph with clear visibility",
+          "importantInfo": "No red-eye, no reflection on glasses (if wearing glasses)"
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "dimensions": {
+            "width": 140,
+            "height": 60,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 20,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "description": "Black ink pen on white paper",
+          "importantInfo": "Black ink pen on white paper, don't use block letters"
+        },
+        {
+          "type": "thumb",
+          "label": "Left Thumb Impression",
+          "dimensions": {
+            "width": 240,
+            "height": 240,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 20,
+            "max": 50,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "dpi": 200,
+          "required": true,
+          "description": "Left thumb impression on white paper",
+          "importantInfo": "Black/blue ink on white paper"
+        },
+        {
+          "type": "handwriting",
+          "label": "Hand Written Declaration",
+          "dimensions": {
+            "width": 800,
+            "height": 400,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 50,
+            "max": 100,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "dpi": 200,
+          "required": true,
+          "description": "Handwritten declaration in English with black ink on white paper. Text: \"I,__________(Name of the candidate), hereby declare that all the information submitted by me in the application form is correct, true and valid. I will present the supporting documents as and when required.\"",
+          "importantInfo": "Must be in candidate's own handwriting in English only. If written by others or in any other language, application will be invalid. Visually Impaired candidates may type the text and put left-hand thumb impression below."
+        }
+      ],
+      "isPopular": true,
+      "searchTags": [
+        "rbi",
+        "office attendant",
+        "banking",
+        "reserve bank",
+        "2026",
+        "oa"
+      ]
+    },
+    {
+      "id": "up-police-constable-2026",
+      "name": "UP Police Constable Online Form 2026",
+      "shortName": "UP Police",
+      "category": "defence",
+      "organizer": "UPPRPB",
+      "examType": "recruitment",
+      "formFillupStartDate": "2025-12-31",
+      "formFillupEndDate": "2026-01-30",
+      "requirements": [
+        {
+          "type": "document",
+          "label": "Caste Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": false,
+          "description": "Should be legible when print out is taken",
+          "importantInfo": "Should be legible when print out is taken",
+          "acceptedDocTypes": [
+            "SC Certificate",
+            "ST Certificate",
+            "OBC Certificate",
+            "OBC-NCL Certificate",
+            "EWS Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Domicile Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Should be legible when print out is taken",
+          "importantInfo": "Should be legible when print out is taken",
+          "acceptedDocTypes": [
+            "Domicile Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "10th Standard or Equivalent Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Should be legible when print out is taken",
+          "importantInfo": "Should be legible when print out is taken",
+          "acceptedDocTypes": [
+            "Class 10 Certificate",
+            "Matriculation Certificate",
+            "SSC Certificate",
+            "SSLC Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "10th Standard or Equivalent Marksheet",
+          "fileSize": {
+            "min": 50,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Should be legible when print out is taken",
+          "importantInfo": "Should be legible when print out is taken",
+          "acceptedDocTypes": [
+            "Class 10 Marksheet"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "12th Standard or Equivalent Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Should be legible when print out is taken",
+          "importantInfo": "Should be legible when print out is taken",
+          "acceptedDocTypes": [
+            "Class 12 Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "12th Standard or Equivalent Marksheet",
+          "fileSize": {
+            "min": 50,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Should be legible when print out is taken",
+          "importantInfo": "Should be legible when print out is taken",
+          "acceptedDocTypes": [
+            "Class 12 Marksheet"
+          ]
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "dimensions": {
+            "width": 140,
+            "height": 60,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 5,
+            "max": 20,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "description": "On white paper with black ink",
+          "importantInfo": "On white paper with black ink"
+        }
+      ],
+      "isPopular": true,
+      "searchTags": [
+        "up police",
+        "constable",
+        "uttar pradesh",
+        "police",
+        "2026",
+        "upprpb",
+        "defence"
+      ]
+    },
+    {
+      "id": "assam-special-tet-2026",
+      "name": "Assam Special TET 2026",
+      "shortName": "Assam TET",
+      "category": "other",
+      "organizer": "Govt of Assam",
+      "examType": "competitive",
+      "formFillupStartDate": "2026-01-07",
+      "formFillupEndDate": "2026-02-07",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Photograph",
+          "fileSize": {
+            "min": 10,
+            "max": 35,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "colorMode": "color",
+          "required": true,
+          "description": "For Lower Primary and Upper Primary level for Bodo, Garo, Manipuri and Hmar medium. Should be identifiable.",
+          "importantInfo": "Should be identifiable",
+          "advancedValidation": {
+            "dimensionRange": {
+              "width": {
+                "min": 150,
+                "max": 220
+              },
+              "height": {
+                "min": 250,
+                "max": 320
+              },
+              "unit": "px"
+            },
+            "validationLevel": "standard"
+          }
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "fileSize": {
+            "min": 5,
+            "max": 30,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "description": "Blue/black pen on white paper. Should be identifiable.",
+          "importantInfo": "Blue/black pen on white paper. Should be identifiable.",
+          "advancedValidation": {
+            "dimensionRange": {
+              "width": {
+                "min": 150,
+                "max": 220
+              },
+              "height": {
+                "min": 100,
+                "max": 180
+              },
+              "unit": "px"
+            },
+            "validationLevel": "standard"
+          }
+        },
+        {
+          "type": "photo",
+          "label": "Pass Certificate of Professional Qualification in Teacher Education",
+          "fileSize": {
+            "min": 50,
+            "max": 350,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "description": "Professional qualification certificate in teacher education",
+          "importantInfo": "Width should be greater than 350px, Height should be greater than 550px",
+          "advancedValidation": {
+            "dimensionRange": {
+              "width": {
+                "min": 350
+              },
+              "height": {
+                "min": 550
+              },
+              "unit": "px"
+            },
+            "validationLevel": "standard"
+          }
+        }
+      ],
+      "isPopular": true,
+      "searchTags": [
+        "assam",
+        "tet",
+        "special tet",
+        "teacher",
+        "bodo",
+        "garo",
+        "manipuri",
+        "hmar",
+        "2026",
+        "education"
       ]
     }
   ]
