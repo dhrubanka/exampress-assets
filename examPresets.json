@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-01-23T09:06:31.743Z",
+  "lastUpdated": "2026-01-25T17:27:28.341Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -39,6 +39,312 @@
     }
   },
   "presets": [
+    {
+      "id": "assam-police-recruitment-2026",
+      "name": "Assam Police Recruitment 2026",
+      "shortName": "SLPRB Assam Police Recruitment",
+      "category": "other",
+      "organizer": "Govt of Assam",
+      "examType": "competitive",
+      "formFillupStartDate": "2026-01-22",
+      "formFillupEndDate": "2026-02-22",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Passport Size Photo",
+          "fileSize": {
+            "min": 400,
+            "max": 450,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "colorMode": "color",
+          "required": true,
+          "description": "Photograph must be in colour and must be in white background and must have been taken after 15th December 2025",
+          "importantInfo": "Photograph must be in colour and must be in white background and must have been taken after 15th December 2025"
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "fileSize": {
+            "min": 90,
+            "max": 100,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "description": "Blue/black pen on white paper",
+          "importantInfo": "Blue/black pen on white paper"
+        },
+        {
+          "type": "document",
+          "label": "Certificate of Age proof",
+          "fileSize": {
+            "min": 180,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Certificate of Age proof",
+          "acceptedDocTypes": [
+            "Admit Card of H.S.L.C. or equivalent examination",
+            "Certificate of H.S.L.C. or equivalent examination"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Employment exchange registration card",
+          "fileSize": {
+            "min": 180,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Employment exchange registration card"
+        },
+        {
+          "type": "document",
+          "label": "Aadhaar Card",
+          "fileSize": {
+            "min": 180,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Aadhaar card",
+          "acceptedDocTypes": [
+            "Aadhaar card"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Permanent Residence Certificate",
+          "fileSize": {
+            "min": 180,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Permanent residence certificate",
+          "acceptedDocTypes": [
+            "Permanent residence certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Pass Certificate and Marksheet of H.S.L.C. or Class X",
+          "fileSize": {
+            "min": 180,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Pass certificate and marksheet of H.S.L.C. or Class X",
+          "acceptedDocTypes": [
+            "Class 10 Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Pass Certificate and Marksheet of H.S. or Class XII",
+          "fileSize": {
+            "min": 180,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Pass certificate and marksheet of H.S. or Class XII",
+          "acceptedDocTypes": [
+            "Class 12 Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Graduate Certificate",
+          "fileSize": {
+            "min": 180,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Graduate certificate",
+          "acceptedDocTypes": [
+            "Graduate Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Home Guard Certificate(Optional)",
+          "fileSize": {
+            "min": 180,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Home Guard Certificate(Optional)",
+          "acceptedDocTypes": [
+            "Home Guard Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "NCC “A” Certificate(Optional)",
+          "fileSize": {
+            "min": 180,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "NCC “A” Certificate(Optional)",
+          "acceptedDocTypes": [
+            "NCC “A” Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Certificate of registered VDP member(Optional)",
+          "fileSize": {
+            "min": 180,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Certificate of registered VDP member(Optional)",
+          "acceptedDocTypes": [
+            "Certificate of registered VDP member"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Certificate of registered Civil Defence Volunteer(CVD)(Optional)",
+          "fileSize": {
+            "min": 180,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Certificate of registered Civil Defence Volunteer(CVD)(Optional)",
+          "acceptedDocTypes": [
+            "Certificate of registered Civil Defence Volunteer(CVD)"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "SPO appointment Certificate(Optional)",
+          "fileSize": {
+            "min": 180,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Appointment Certificate as SPO issued by concerned Superintendent of Police",
+          "acceptedDocTypes": [
+            "SPO appointment Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Certificate of FMMO(Optional)",
+          "fileSize": {
+            "min": 180,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Certificate of FMMO issued by Special Branch, HQrs. of Assam Police, Kahilipara, Guwahati",
+          "acceptedDocTypes": [
+            "Certificate of FMMO"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Sports Certificate(Optional)",
+          "fileSize": {
+            "min": 180,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Sports Certificate issued by competent authority",
+          "acceptedDocTypes": [
+            "Sports Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Caste Certificate(Optional)",
+          "fileSize": {
+            "min": 180,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Caste Certificate, if applicable, is acceptable only from the Competent Authority authorized by the Govt. of Assam. CASTE CERTIFICATE ISSUED BY ANY OTHER AUTHORITY/STATES WILL NOT BE ACCEPTED",
+          "importantInfo": "Caste Certificate, if applicable, is acceptable only from the Competent Authority authorized by the Govt. of Assam. CASTE CERTIFICATE ISSUED BY ANY OTHER AUTHORITY/STATES WILL NOT BE ACCEPTED",
+          "acceptedDocTypes": [
+            "Caste Certificate"
+          ]
+        }
+      ],
+      "isPopular": true,
+      "searchTags": [
+        "assam",
+        "police",
+        "slprb",
+        "assam police",
+        "2026",
+        "recruitment"
+      ]
+    },
     {
       "id": "gate-2025",
       "name": "Graduate Aptitude Test in Engineering",
@@ -931,7 +1237,7 @@
     {
       "id": "rbi-office-attendant-2026",
       "name": "RBI Bank Office Attendant",
-      "shortName": "RBI OA",
+      "shortName": "RBI Office Attendant",
       "category": "banking",
       "organizer": "RBI",
       "examType": "recruitment",
@@ -1035,7 +1341,7 @@
     {
       "id": "up-police-constable-2026",
       "name": "UP Police Constable Online Form 2026",
-      "shortName": "UP Police",
+      "shortName": "UP Police Constable",
       "category": "defence",
       "organizer": "UPPRPB",
       "examType": "recruitment",
@@ -1192,7 +1498,7 @@
     {
       "id": "assam-special-tet-2026",
       "name": "Assam Special TET 2026",
-      "shortName": "Assam TET",
+      "shortName": "Assam Special TET",
       "category": "other",
       "organizer": "Govt of Assam",
       "examType": "competitive",
