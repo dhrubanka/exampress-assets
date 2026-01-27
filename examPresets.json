@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-01-25T17:27:28.341Z",
+  "lastUpdated": "2026-01-27T04:17:40.495Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -53,7 +53,7 @@
           "type": "photo",
           "label": "Passport Size Photo",
           "fileSize": {
-            "min": 400,
+            "min": 50,
             "max": 450,
             "unit": "KB"
           },
@@ -69,7 +69,7 @@
           "type": "signature",
           "label": "Signature",
           "fileSize": {
-            "min": 90,
+            "min": 10,
             "max": 100,
             "unit": "KB"
           },
@@ -84,7 +84,7 @@
           "type": "document",
           "label": "Certificate of Age proof",
           "fileSize": {
-            "min": 180,
+            "min": 20,
             "max": 200,
             "unit": "KB"
           },
@@ -102,7 +102,7 @@
           "type": "document",
           "label": "Employment exchange registration card",
           "fileSize": {
-            "min": 180,
+            "min": 20,
             "max": 200,
             "unit": "KB"
           },
@@ -116,7 +116,7 @@
           "type": "document",
           "label": "Aadhaar Card",
           "fileSize": {
-            "min": 180,
+            "min": 20,
             "max": 200,
             "unit": "KB"
           },
@@ -133,7 +133,7 @@
           "type": "document",
           "label": "Permanent Residence Certificate",
           "fileSize": {
-            "min": 180,
+            "min": 20,
             "max": 200,
             "unit": "KB"
           },
@@ -150,7 +150,7 @@
           "type": "document",
           "label": "Pass Certificate and Marksheet of H.S.L.C. or Class X",
           "fileSize": {
-            "min": 180,
+            "min": 20,
             "max": 200,
             "unit": "KB"
           },
@@ -167,7 +167,7 @@
           "type": "document",
           "label": "Pass Certificate and Marksheet of H.S. or Class XII",
           "fileSize": {
-            "min": 180,
+            "min": 20,
             "max": 200,
             "unit": "KB"
           },
@@ -184,7 +184,7 @@
           "type": "document",
           "label": "Graduate Certificate",
           "fileSize": {
-            "min": 180,
+            "min": 20,
             "max": 200,
             "unit": "KB"
           },
@@ -201,7 +201,7 @@
           "type": "document",
           "label": "Home Guard Certificate(Optional)",
           "fileSize": {
-            "min": 180,
+            "min": 20,
             "max": 200,
             "unit": "KB"
           },
@@ -218,7 +218,7 @@
           "type": "document",
           "label": "NCC “A” Certificate(Optional)",
           "fileSize": {
-            "min": 180,
+            "min": 20,
             "max": 200,
             "unit": "KB"
           },
@@ -235,7 +235,7 @@
           "type": "document",
           "label": "Certificate of registered VDP member(Optional)",
           "fileSize": {
-            "min": 180,
+            "min": 20,
             "max": 200,
             "unit": "KB"
           },
@@ -252,7 +252,7 @@
           "type": "document",
           "label": "Certificate of registered Civil Defence Volunteer(CVD)(Optional)",
           "fileSize": {
-            "min": 180,
+            "min": 20,
             "max": 200,
             "unit": "KB"
           },
@@ -269,7 +269,7 @@
           "type": "document",
           "label": "SPO appointment Certificate(Optional)",
           "fileSize": {
-            "min": 180,
+            "min": 20,
             "max": 200,
             "unit": "KB"
           },
@@ -286,7 +286,7 @@
           "type": "document",
           "label": "Certificate of FMMO(Optional)",
           "fileSize": {
-            "min": 180,
+            "min": 20,
             "max": 200,
             "unit": "KB"
           },
@@ -303,7 +303,7 @@
           "type": "document",
           "label": "Sports Certificate(Optional)",
           "fileSize": {
-            "min": 180,
+            "min": 20,
             "max": 200,
             "unit": "KB"
           },
@@ -320,7 +320,7 @@
           "type": "document",
           "label": "Caste Certificate(Optional)",
           "fileSize": {
-            "min": 180,
+            "min": 20,
             "max": 200,
             "unit": "KB"
           },
