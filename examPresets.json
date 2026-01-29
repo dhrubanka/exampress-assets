@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-01-27T04:17:40.495Z",
+  "lastUpdated": "2026-01-29T14:29:37.334Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -1604,6 +1604,405 @@
         "hmar",
         "2026",
         "education"
+      ]
+    },
+    {
+      "id": "yil-apprentice-2026",
+      "name": "Yantra India Limited (YIL) Apprentice Recruitment 2026",
+      "shortName": "YIL Apprentice Recruitment 2026",
+      "category": "other",
+      "organizer": "Yantra India Limited (YIL)",
+      "examType": "recruitment",
+      "formFillupStartDate": "2026-02-01",
+      "formFillupEndDate": "2026-03-03",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Photograph",
+          "dimensions": {
+            "width": 35,
+            "height": 35,
+            "unit": "mm"
+          },
+          "fileSize": {
+            "min": 20,
+            "max": 70,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "dpi": 100,
+          "required": true,
+          "importantInfo": "Recent clear color photograph, not older than 3 months.",
+          "description": "Recent clear color photograph, not older than 3 months."
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "dimensions": {
+            "width": 35,
+            "height": 35,
+            "unit": "mm"
+          },
+          "fileSize": {
+            "min": 20,
+            "max": 30,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "dpi": 100,
+          "required": true,
+          "description": "Signature on white paper with black/blue ink.",
+          "importantInfo": "Signature on white paper with black/blue ink."
+        },
+        {
+          "type": "document",
+          "label": "Aadhaar Card / ID Card",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF",
+            "JPG"
+          ],
+          "required": true,
+          "description": "Scanned copy of Aadhaar Card. If unavailable, Voter ID or similar ID card.",
+          "acceptedDocTypes": [
+            "Aadhaar Card",
+            "Voter ID",
+            "Identity Card"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "SSC/Matriculation Mark Sheet",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF",
+            "JPG",
+            "JPEG"
+          ],
+          "required": true,
+          "description": "SSC (Matriculation / 10th Standard) or its equivalent mark sheet.",
+          "acceptedDocTypes": [
+            "SSC Mark Sheet",
+            "Matriculation Mark Sheet",
+            "10th Mark Sheet"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "ITI Mark Sheet/Provisional National Trade Certificate",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF",
+            "JPG"
+          ],
+          "required": true,
+          "description": "Consolidated mark sheet for all semesters of the relevant ITI trade or Provisional NTC indicating marks.",
+          "acceptedDocTypes": [
+            "ITI Consolidated Mark Sheet of all semesters",
+            "Provisional National Trade Certificate indicating marks"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "National Trade Certificate",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF",
+            "JPG",
+            "JPEG"
+          ],
+          "required": true,
+          "description": "National Trade Certificate issued by NCVT or Provisional National Trade Certificate issued by NCVT / SCVT for ITI pass candidates",
+          "acceptedDocTypes": [
+            "National Trade Certificate issued by NCVT",
+            "Provisional National Trade Certificate issued by NCVT / SCVT"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Caste Certificate",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF",
+            "JPG"
+          ],
+          "required": false,
+          "description": "For SC/ST/OBC candidates. OBC Non-Creamy layer certificate must be issued within the last 3 years.",
+          "acceptedDocTypes": [
+            "SC Certificate",
+            "ST Certificate",
+            "OBC Certificate",
+            "OBC-NCL Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Disability Certificate",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF",
+            "JPG",
+            "JPEG"
+          ],
+          "required": false,
+          "description": "Physical Disability certificate for PH/PWD candidates issued by competent Medical Board or authority.",
+          "acceptedDocTypes": [
+            "Disability Certificate"
+          ]
+        }
+      ],
+      "isPopular": false,
+      "searchTags": [
+        "yil",
+        "yantra india",
+        "apprentice",
+        "iti",
+        "defence",
+        "recruitment"
+      ]
+    },
+    {
+      "id": "sbi-cbo-2026",
+      "name": "State Bank of India (SBI) Circle Based Officers (CBO) Recruitment 2026",
+      "shortName": "SBI CBO 2026",
+      "category": "banking",
+      "organizer": "State Bank of India",
+      "examType": "recruitment",
+      "formFillupStartDate": "2026-01-29",
+      "formFillupEndDate": "2026-02-18",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Photograph",
+          "dimensions": {
+            "width": 200,
+            "height": 230,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 20,
+            "max": 50,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "description": "Recent passport style colour picture against light/white background (4.5cm x 3.5cm).",
+          "importantInfo": "Photograph mush be recent, coloured against light/white background. No shadows or glare. Face must be clearly visible with no hat/caps or dark glasses. "
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "dimensions": {
+            "width": 140,
+            "height": 60,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 20,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "description": "Signature on white paper with Black Ink pen. NOT in capital letters.",
+          "importantInfo": "Signature must be on white paper with black ink. Do not use capital letters. "
+        },
+        {
+          "type": "thumb",
+          "label": "Left Thumb Impression",
+          "dimensions": {
+            "width": 30,
+            "height": 30,
+            "unit": "mm"
+          },
+          "fileSize": {
+            "min": 20,
+            "max": 50,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "dpi": 200,
+          "required": true,
+          "description": "Left thumb impression on white paper with black or blue ink",
+          "importantInfo": "Left thumb impression must be on white paper with black or blue ink. "
+        },
+        {
+          "type": "handwriting",
+          "label": "Hand Written Declaration",
+          "dimensions": {
+            "width": 100,
+            "height": 50,
+            "unit": "mm"
+          },
+          "fileSize": {
+            "min": 50,
+            "max": 100,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
+          "dpi": 200,
+          "required": true,
+          "description": "The handwritten declaration has to be in the candidate’s hand writing and in English only. The text should NOT BE IN CAPITAL LETTERS. If it is written by anybody else and uploaded or in any other language, the application will be considered as invalid. ",
+          "importantInfo": "The text for handwritten declaration is as follows: \"I, __________ (Name of the candidate), hereby declare that all the information submitted by me in the application form is correct, true and valid. I will present the supporting documents as and when required.\" "
+        },
+        {
+          "type": "document",
+          "label": "ID Proof",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Valid ID Proof (Aadhaar, PAN, Voter ID, etc.) in PDF format."
+        },
+        {
+          "type": "document",
+          "label": "Proof of Date of Birth",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Proof of Date of Birth in PDF format."
+        },
+        {
+          "type": "document",
+          "label": "Brief Resume",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Brief Resume detailing educational/professional qualification and experience."
+        },
+        {
+          "type": "document",
+          "label": "Educational Certificates",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Relevant Mark-Sheets/Degree/Certificates."
+        },
+        {
+          "type": "document",
+          "label": "Experience Certificate / Appointment Letter",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Experience Certificate, Appointment Letter, or Job Offer Letter."
+        },
+        {
+          "type": "document",
+          "label": "Form-16",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Latest Form-16 issued by the employer."
+        },
+        {
+          "type": "document",
+          "label": "Salary Slip",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Latest Salary Slip."
+        },
+        {
+          "type": "document",
+          "label": "Job Profile",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Job Profile certified by existing/previous employers."
+        }
+      ],
+      "isPopular": true,
+      "searchTags": [
+        "sbi",
+        "cbo",
+        "circle based officer",
+        "banking",
+        "recruitment",
+        "officer"
       ]
     }
   ]
