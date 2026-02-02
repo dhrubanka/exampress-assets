@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-01-29T14:29:37.334Z",
+  "lastUpdated": "2026-02-02T15:51:31.676Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -2003,6 +2003,111 @@
         "banking",
         "recruitment",
         "officer"
+      ]
+    },
+    {
+      "id": "jee-mains-session-2-2025",
+      "name": "JEE Mains 2025 Session 2",
+      "shortName": "JEE Mains Session 2",
+      "category": "engineering",
+      "organizer": "NTA",
+      "examType": "entrance",
+      "formFillupStartDate": "2026-02-01",
+      "formFillupEndDate": "2026-02-25",
+      "officialWebsite": "https://jeemain.nta.nic.in",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Passport Size Photograph",
+          "fileSize": {
+            "min": 10,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "colorMode": "color",
+          "required": true,
+          "description": "Recent passport size photograph in colour with 80% face (without mask) visible including ears against white background",
+          "importantInfo": "Photograph must be in colour with 80% face (without mask) visible including ears against white background."
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "fileSize": {
+            "min": 10,
+            "max": 100,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "description": "Scanned signature in JPG/JPEG format (clearly legible)"
+        },
+        {
+          "type": "document",
+          "label": "Class 10 Certificate/Marksheet",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Scanned copy of Class 10 or Equivalent Certificate/Marks-sheet (clearly legible)",
+          "acceptedDocTypes": [
+            "Class 10 Certificate",
+            "Class 10 Marksheet"
+          ]
+        },
+        {
+          "type": "photo",
+          "label": "Identity Proof (Optional)",
+          "fileSize": {
+            "min": 10,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
+          "required": false,
+          "description": "Scanned copy of Identity Proof (for those candidates who will verify their identities through methods other than Aadhaar or DigiLocker)",
+          "importantInfo": "Required only for candidates verifying identity through methods other than Aadhaar or DigiLocker"
+        },
+        {
+          "type": "document",
+          "label": "Disability/UDID Certificate (Optional)",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": false,
+          "description": "Scanned copy of Disability/UDID certificate (clearly legible)",
+          "importantInfo": "Scanned copy of Disability/UDID certificate (clearly legible). Required only for PwD/PwBD candidates"
+        }
+      ],
+      "isPopular": true,
+      "searchTags": [
+        "jee",
+        "jee mains",
+        "jee main",
+        "nta",
+        "engineering",
+        "entrance",
+        "iit",
+        "nit",
+        "session 2",
+        "2025"
       ]
     }
   ]
