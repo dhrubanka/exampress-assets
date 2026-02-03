@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-02-02T15:51:31.676Z",
+  "lastUpdated": "2026-02-03T14:57:26.639Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -2108,6 +2108,69 @@
         "nit",
         "session 2",
         "2025"
+      ]
+    },
+    {
+      "id": "india-post-gds-2026",
+      "name": "India Post GDS Recruitment 2026",
+      "shortName": "India Post GDS",
+      "category": "other",
+      "organizer": "India Post",
+      "examType": "recruitment",
+      "formFillupStartDate": "2026-01-31",
+      "formFillupEndDate": "2026-02-14",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Photograph",
+          "dimensions": {
+            "width": 200,
+            "height": 230,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 50,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "dpi": 200,
+          "colorMode": "color",
+          "required": true,
+          "description": "Recent passport size photograph in colour (200x230 pixels preferred)"
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "dimensions": {
+            "width": 140,
+            "height": 60,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 5,
+            "max": 20,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "dpi": 200,
+          "required": true,
+          "description": "Signature on white paper with black/blue ink (140x60 pixels preferred)"
+        }
+      ],
+      "isPopular": true,
+      "searchTags": [
+        "india post",
+        "gds",
+        "gramin dak sevak",
+        "postal",
+        "post office",
+        "2026",
+        "recruitment"
       ]
     }
   ]
