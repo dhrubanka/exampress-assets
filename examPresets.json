@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-02-04T15:54:24.701Z",
+  "lastUpdated": "2026-02-04T15:58:06.741Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -2139,7 +2139,7 @@
           "dpi": 72,
           "colorMode": "color",
           "required": true,
-          "description": "Recent passport size photograph in colour (200x230 pixels preferred)",
+          "description": "Recent passport size photograph in colour",
           "importantInfo": "Face should occupy 70–80% of the image with no shadows or red-eye"
         },
         {
@@ -2160,7 +2160,7 @@
           ],
           "dpi": 72,
           "required": true,
-          "description": "Signature on white paper with black/blue ink (140x60 pixels preferred)",
+          "description": "Signature on white paper with black/blue ink",
           "importantInfo": "Signature should occupy 70–80% of the image"
         }
       ],
