@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-02-04T04:15:36.885Z",
+  "lastUpdated": "2026-02-04T15:54:24.701Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -2124,42 +2124,44 @@
           "type": "photo",
           "label": "Photograph",
           "dimensions": {
-            "width": 200,
-            "height": 230,
+            "width": 320,
+            "height": 400,
             "unit": "px"
           },
           "fileSize": {
-            "min": 10,
-            "max": 50,
+            "min": 30,
+            "max": 100,
             "unit": "KB"
           },
           "format": [
             "JPG"
           ],
-          "dpi": 200,
+          "dpi": 72,
           "colorMode": "color",
           "required": true,
-          "description": "Recent passport size photograph in colour (200x230 pixels preferred)"
+          "description": "Recent passport size photograph in colour (200x230 pixels preferred)",
+          "importantInfo": "Face should occupy 70–80% of the image with no shadows or red-eye"
         },
         {
           "type": "signature",
           "label": "Signature",
           "dimensions": {
-            "width": 140,
-            "height": 60,
+            "width": 300,
+            "height": 120,
             "unit": "px"
           },
           "fileSize": {
-            "min": 5,
-            "max": 20,
+            "min": 20,
+            "max": 100,
             "unit": "KB"
           },
           "format": [
             "JPG"
           ],
-          "dpi": 200,
+          "dpi": 72,
           "required": true,
-          "description": "Signature on white paper with black/blue ink (140x60 pixels preferred)"
+          "description": "Signature on white paper with black/blue ink (140x60 pixels preferred)",
+          "importantInfo": "Signature should occupy 70–80% of the image"
         }
       ],
       "isPopular": true,
