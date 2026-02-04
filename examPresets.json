@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-02-03T14:57:26.639Z",
+  "lastUpdated": "2026-02-04T04:15:36.885Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -2171,6 +2171,96 @@
         "post office",
         "2026",
         "recruitment"
+      ]
+    },
+    {
+      "id": "railway-rrb-group-d-2026",
+      "name": "Railway RRB Group D Recruitment 2026",
+      "shortName": "RRB Group D 2026",
+      "category": "railway",
+      "organizer": "Railway Recruitment Board",
+      "examType": "recruitment",
+      "formFillupStartDate": "2026-01-31",
+      "formFillupEndDate": "2026-03-02",
+      "requirements": [
+        {
+          "type": "document",
+          "label": "Caste Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": false,
+          "description": "Caste certificate (if applicable)"
+        },
+        {
+          "type": "document",
+          "label": "EBC Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": false,
+          "description": "EBC (Economically Backward Class) certificate (if applicable)"
+        },
+        {
+          "type": "photo",
+          "label": "Photograph",
+          "dimensions": {
+            "width": 320,
+            "height": 240,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 50,
+            "max": 100,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "colorMode": "color",
+          "required": true,
+          "description": "Coloured photograph with white background, not older than 2 months",
+          "importantInfo": "Coloured photograph with white background, not older than 2 months. Facial features should be clear with no obstruction such as headgear, mask, hair of head, cloth, shadow, jewellery etc. If candidate wears glasses, there should be no glare/reflection."
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "dimensions": {
+            "width": 140,
+            "height": 60,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 30,
+            "max": 49,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "description": "Signature with black/blue ink on white paper within a box of size 50mm X 20mm",
+          "importantInfo": "Signature with black/blue ink on white paper within a box of size 50mm X 20mm. Must be running letters and not block letters. Must be signed by the candidate."
+        }
+      ],
+      "isPopular": true,
+      "searchTags": [
+        "railway",
+        "rrb",
+        "group d",
+        "indian railways",
+        "recruitment",
+        "2026"
       ]
     }
   ]
