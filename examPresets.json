@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-02-04T15:58:06.741Z",
+  "lastUpdated": "2026-02-06T17:11:03.246Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -363,7 +363,6 @@
           },
           "format": [
             "JPG",
-            "JPEG",
             "PNG"
           ],
           "colorMode": "color",
@@ -402,8 +401,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "required": true,
           "description": "Blue or black ink only, signature must occupy 70-80% of image",
@@ -483,8 +481,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "required": true,
           "description": "Recent passport size colored photograph"
@@ -498,8 +495,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "required": true,
           "description": "Digital signature on white background with black/blue pen"
@@ -596,8 +592,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "required": true,
           "description": "Passport size photograph (4.5cm × 3.5cm, 200×230 pixels)"
@@ -616,8 +611,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "required": true,
           "description": "Digital signature (140×60 pixels)"
@@ -636,8 +630,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "dpi": 200,
           "required": true,
@@ -657,8 +650,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "dpi": 200,
           "required": true,
@@ -715,8 +707,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "required": true,
           "description": "Passport size photograph (4.5cm × 3.5cm, 200×230 pixels)"
@@ -735,8 +726,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "required": true,
           "description": "Digital signature (140×60 pixels)"
@@ -755,8 +745,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "dpi": 200,
           "required": true,
@@ -776,8 +765,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "dpi": 200,
           "required": true,
@@ -889,8 +877,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "required": true,
           "description": "Passport size photograph (2.5 × 3.5 inches)"
@@ -909,8 +896,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "required": true,
           "description": "Postcard size photograph (4 × 6 inches)"
@@ -924,8 +910,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "required": true,
           "description": "Digital signature on white background"
@@ -962,8 +947,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "required": true,
           "description": "Left thumb impression on white background"
@@ -977,8 +961,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "required": true,
           "description": "Right thumb impression on white background"
@@ -1688,8 +1671,7 @@
           },
           "format": [
             "PDF",
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "required": true,
           "description": "SSC (Matriculation / 10th Standard) or its equivalent mark sheet.",
@@ -1728,8 +1710,7 @@
           },
           "format": [
             "PDF",
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "required": true,
           "description": "National Trade Certificate issued by NCVT or Provisional National Trade Certificate issued by NCVT / SCVT for ITI pass candidates",
@@ -1769,8 +1750,7 @@
           },
           "format": [
             "PDF",
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "required": false,
           "description": "Physical Disability certificate for PH/PWD candidates issued by competent Medical Board or authority.",
@@ -1874,8 +1854,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "dpi": 200,
           "required": true,
@@ -2073,8 +2052,7 @@
             "unit": "KB"
           },
           "format": [
-            "JPG",
-            "JPEG"
+            "JPG"
           ],
           "required": false,
           "description": "Scanned copy of Identity Proof (for those candidates who will verify their identities through methods other than Aadhaar or DigiLocker)",
