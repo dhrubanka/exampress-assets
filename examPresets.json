@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-02-12T04:42:34.892Z",
+  "lastUpdated": "2026-02-12T04:43:19.991Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -42,7 +42,7 @@
     {
       "id": "pnb-apprentice-2026",
       "name": "PNB Apprentice Examination 2026",
-      "shortName": "PNB Apprentice",
+      "shortName": "PNB Apprentice 2026",
       "category": "banking",
       "organizer": "Punjab National Bank",
       "examType": "recruitment",
