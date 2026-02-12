@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-02-06T17:11:03.246Z",
+  "lastUpdated": "2026-02-12T04:42:34.892Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -39,6 +39,168 @@
     }
   },
   "presets": [
+    {
+      "id": "pnb-apprentice-2026",
+      "name": "PNB Apprentice Examination 2026",
+      "shortName": "PNB Apprentice",
+      "category": "banking",
+      "organizer": "Punjab National Bank",
+      "examType": "recruitment",
+      "formFillupStartDate": "2026-02-08",
+      "formFillupEndDate": "2026-02-24",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Passport Size Photo",
+          "fileSize": {
+            "min": 20,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "colorMode": "color",
+          "required": true,
+          "description": "Passport size photograph"
+        },
+        {
+          "type": "photo",
+          "label": "Aadhaar Card (Front Side)",
+          "fileSize": {
+            "min": 20,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "description": "Clear photo of the front side of Aadhaar card"
+        },
+        {
+          "type": "photo",
+          "label": "Aadhaar Card (Back Side)",
+          "fileSize": {
+            "min": 20,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "description": "Clear photo of back side of Aadhaar card"
+        },
+        {
+          "type": "photo",
+          "label": "PAN Card",
+          "fileSize": {
+            "min": 20,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "description": "PAN Card (Less than 1 MB)"
+        },
+        {
+          "type": "document",
+          "label": "10th Marksheet",
+          "fileSize": {
+            "min": 20,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "10th standard marksheet",
+          "acceptedDocTypes": [
+            "Class 10 Marksheet"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "12th Marksheet",
+          "fileSize": {
+            "min": 20,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "12th standard marksheet",
+          "acceptedDocTypes": [
+            "Class 12 Marksheet"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Graduation Marksheet",
+          "fileSize": {
+            "min": 20,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Graduation degree marksheet",
+          "acceptedDocTypes": [
+            "Graduation Marksheet"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Caste Certificate",
+          "fileSize": {
+            "min": 20,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": false,
+          "description": "Caste certificate for OBC/SC/ST category",
+          "acceptedDocTypes": [
+            "Caste Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "PwBD Certificate",
+          "fileSize": {
+            "min": 20,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": false,
+          "description": "Disability certificate (if applicable)",
+          "acceptedDocTypes": [
+            "Disability Certificate"
+          ]
+        }
+      ],
+      "isPopular": true,
+      "searchTags": [
+        "pnb",
+        "apprentice",
+        "banking",
+        "2026",
+        "punjab national bank"
+      ]
+    },
     {
       "id": "assam-police-recruitment-2026",
       "name": "Assam Police Recruitment 2026",
