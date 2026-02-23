@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-02-16T04:51:02.520Z",
+  "lastUpdated": "2026-02-23T06:03:26.473Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -202,6 +202,200 @@
       ]
     },
     {
+      "id": "rrc-wr-apprentice-2026",
+      "name": "Railway RRC WR Apprentice Online Form 2026",
+      "shortName": "Railway RRC WR Apprentice 2026",
+      "category": "railway",
+      "organizer": "Railway Recruitment Cell, Western Railway",
+      "examType": "recruitment",
+      "formFillupStartDate": "2026-02-21",
+      "formFillupEndDate": "2026-03-23",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Photograph",
+          "dimensions": {
+            "width": 35,
+            "height": 35,
+            "unit": "mm"
+          },
+          "fileSize": {
+            "min": 20,
+            "max": 70,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "dpi": 100,
+          "colorMode": "color",
+          "required": true,
+          "description": "Recent colour photograph, taken not earlier than three months from date of application. Front view without cap or sunglasses.",
+          "importantInfo": "Recent colour photograph, taken not earlier than three months. Front view without cap or sunglasses"
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "dimensions": {
+            "width": 35,
+            "height": 35,
+            "unit": "mm"
+          },
+          "fileSize": {
+            "min": 20,
+            "max": 30,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "dpi": 100,
+          "required": true,
+          "description": "Scanned signature",
+          "importantInfo": "blue/black ink on white paper"
+        },
+        {
+          "type": "document",
+          "label": "SSC / Matriculation Marksheet",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "SSC (Standard 10th) or equivalent marksheet with date of birth proof",
+          "importantInfo": "Must be properly legible.",
+          "acceptedDocTypes": [
+            "Class 10 Marksheet",
+            "Matriculation Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Date of birth proof",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Certificate as proof of date of birth",
+          "importantInfo": "Should contain date of birth. Must be properly legible.",
+          "acceptedDocTypes": [
+            "Class 10 Marksheet/certificate",
+            "Matriculation Marksheet/Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Consolidated Marksheet of all semesters or Provisional National Trade Certificate indicating marks",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "Consolidated Marksheet of all semesters of the trade in which the candidate has applied or Provisional National Trade Certificate indicating marks",
+          "importantInfo": "Consolidated Marksheet of all semesters of the trade in which the candidate has applied or Provisional National Trade Certificate indicating marks. Must be properly legible."
+        },
+        {
+          "type": "document",
+          "label": "Provisional or National Trade Certificate",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "description": "National Trade Certificate issued by NCVT, or Provisional National Trade Certificate issued by NCVT/SCVT",
+          "importantInfo": "National Trade Certificate issued by NCVT, or Provisional National Trade Certificate issued by NCVT/SCVT. Must be properly legible."
+        },
+        {
+          "type": "document",
+          "label": "Caste Certificate (SC/ST/OBC)",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": false,
+          "description": "Caste certificate for SC/ST/OBC applicants in prescribed format (Annexures B, C, D)",
+          "importantInfo": "Must be in prescribed format as per Annexures B, C, and D."
+        },
+        {
+          "type": "document",
+          "label": "Disability Certificate (PwBD)",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": false,
+          "description": "Disability certificate for PwBD applicants in prescribed format (Annexures E, F, G)",
+          "importantInfo": "Must be in prescribed format as per Annexures E, F, and G."
+        },
+        {
+          "type": "document",
+          "label": "Discharge / Serving Certificate (Ex-Servicemen)",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": false,
+          "description": "Discharge Certificate or Serving Certificate for Ex-Servicemen quota applicants",
+          "importantInfo": "Required only for Ex-Servicemen quota."
+        },
+        {
+          "type": "document",
+          "label": "EWS Income & Asset Certificate",
+          "fileSize": {
+            "min": 100,
+            "max": 200,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": false,
+          "description": "Income & Asset Certificate (Annexure H) for EWS category applicants",
+          "importantInfo": "Required for EWS reservation only (Annexure H)."
+        }
+      ],
+      "isPopular": true,
+      "searchTags": [
+        "rrc",
+        "wr",
+        "western railway",
+        "railway",
+        "apprentice",
+        "2026",
+        "iti",
+        "ncvt"
+      ]
+    },
+    {
       "id": "indian-army-agniveer-cce-2026",
       "name": "Indian Army Agniveer CCE Examination 2026",
       "shortName": "Agniveer CCE 2026",
@@ -248,6 +442,48 @@
         "cce",
         "defence",
         "army",
+        "2026"
+      ]
+    },
+    {
+      "id": "upsc-cpf-ac-capf-2026",
+      "name": "UPSC CPF Assistant Commandant CAPF Recruitment 2026",
+      "shortName": "UPSC CPF AC 2026",
+      "category": "defence",
+      "organizer": "Union Public Service Commission (UPSC)",
+      "examType": "recruitment",
+      "formFillupStartDate": "2026-02-20",
+      "formFillupEndDate": "2026-03-12",
+      "requirements": [
+        {
+          "type": "document",
+          "label": "Degree Certificate",
+          "fileSize": {
+            "min": 50,
+            "max": 300,
+            "unit": "KB"
+          },
+          "format": [
+            "PDF"
+          ],
+          "required": true,
+          "fileName": "degree_certificate",
+          "description": "Degree or Certificate of graduation from a recognized university",
+          "importantInfo": "File name must be degree_certificate in pdf format between 50KB and 300KB only"
+        }
+      ],
+      "isPopular": true,
+      "searchTags": [
+        "upsc",
+        "cpf",
+        "capf",
+        "assistant commandant",
+        "defence",
+        "crpf",
+        "bsf",
+        "cisf",
+        "itbp",
+        "ssb",
         "2026"
       ]
     },
