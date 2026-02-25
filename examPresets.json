@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-02-25T05:12:42.238Z",
+  "lastUpdated": "2026-02-25T06:24:24.003Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -517,21 +517,7 @@
           "colorMode": "color",
           "required": true,
           "description": "Colour photograph on white background, Face should occupy 50% of the area with full-face view.",
-          "importantInfo": "Photograph must be taken after 1st January 2026. Requires high resolution photograph, Mobile phone photos and self-composed portraits are not acceptable.",
-          "advancedValidation": {
-            "dimensionRange": {
-              "width": {
-                "min": 320,
-                "max": 640
-              },
-              "height": {
-                "min": 240,
-                "max": 480
-              },
-              "unit": "px"
-            },
-            "validationLevel": "strict"
-          }
+          "importantInfo": "Photograph must be taken after 1st January 2026. Requires high resolution photograph, Mobile phone photos and self-composed portraits are not acceptable."
         },
         {
           "type": "signature",
@@ -551,21 +537,7 @@
           ],
           "required": true,
           "description": "Signature in black or dark blue ink on white paper.",
-          "importantInfo": "Black or dark blue ink on white paper.",
-          "advancedValidation": {
-            "dimensionRange": {
-              "width": {
-                "min": 400,
-                "max": 800
-              },
-              "height": {
-                "min": 150,
-                "max": 300
-              },
-              "unit": "px"
-            },
-            "validationLevel": "strict"
-          }
+          "importantInfo": "Black or dark blue ink on white paper."
         },
         {
           "type": "document",
