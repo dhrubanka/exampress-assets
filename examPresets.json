@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-02-23T06:03:26.473Z",
+  "lastUpdated": "2026-02-25T05:12:42.238Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -488,6 +488,208 @@
       ]
     },
     {
+      "id": "assam-cprd-recruitment-2026",
+      "name": "Assam Panchayat & Rural Development Recruitment 2026",
+      "shortName": "Assam Panchayat & Rural Development Recruitment 2026",
+      "category": "other",
+      "organizer": "Commissionerate of Panchayat and Rural Development, Assam",
+      "examType": "recruitment",
+      "formFillupStartDate": "2026-02-22",
+      "formFillupEndDate": "2026-03-22",
+      "officialWebsite": "https://www.rural.assam.gov.in",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Passport Size Photograph",
+          "dimensions": {
+            "width": 640,
+            "height": 480,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 80,
+            "max": 100,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "colorMode": "color",
+          "required": true,
+          "description": "Colour photograph on white background, Face should occupy 50% of the area with full-face view.",
+          "importantInfo": "Photograph must be taken after 1st January 2026. Requires high resolution photograph, Mobile phone photos and self-composed portraits are not acceptable.",
+          "advancedValidation": {
+            "dimensionRange": {
+              "width": {
+                "min": 320,
+                "max": 640
+              },
+              "height": {
+                "min": 240,
+                "max": 480
+              },
+              "unit": "px"
+            },
+            "validationLevel": "strict"
+          }
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "dimensions": {
+            "width": 800,
+            "height": 300,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 100,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "description": "Signature in black or dark blue ink on white paper.",
+          "importantInfo": "Black or dark blue ink on white paper.",
+          "advancedValidation": {
+            "dimensionRange": {
+              "width": {
+                "min": 400,
+                "max": 800
+              },
+              "height": {
+                "min": 150,
+                "max": 300
+              },
+              "unit": "px"
+            },
+            "validationLevel": "strict"
+          }
+        },
+        {
+          "type": "document",
+          "label": "Age Proof (Birth Certificate / HSLC Admit Card)",
+          "fileSize": {
+            "min": 20,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "PDF"
+          ],
+          "required": true,
+          "description": "Birth Certificate / Admit Card of HSLC or equivalent examination for proof of age",
+          "acceptedDocTypes": [
+            "Birth Certificate",
+            "Class 10 Marksheet"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "ID Proof",
+          "fileSize": {
+            "min": 20,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "PDF"
+          ],
+          "required": true,
+          "description": "PAN Card, Voter ID, Aadhaar Card, Driving License etc.",
+          "acceptedDocTypes": [
+            "PAN Card",
+            "Voter ID",
+            "Aadhaar Card",
+            "Driving License"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Educational Qualification Certificate / Marksheet",
+          "fileSize": {
+            "min": 20,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "PDF"
+          ],
+          "required": true,
+          "description": "Certificate and Mark-sheet of Minimum Educational Qualification for the Post concerned"
+        },
+        {
+          "type": "document",
+          "label": "Computer Proficiency Certificate",
+          "fileSize": {
+            "min": 20,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "PDF"
+          ],
+          "required": false,
+          "description": "Certificate on computer proficiency (for posts of Computer Assistant, Gram Panchayat Co-ordinator, Gram Rozgar Sahayak and Accredited Engineer). Candidates with Degree in Computer Science / IT may upload Diploma certificate in computer, if any.",
+          "importantInfo": "Required for Computer Assistant, Gram Panchayat Co-ordinator, Gram Rozgar Sahayak and Accredited Engineer posts."
+        },
+        {
+          "type": "document",
+          "label": "Caste Certificate",
+          "fileSize": {
+            "min": 20,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "PDF"
+          ],
+          "required": false,
+          "description": "Certificate of caste from the competent authority for candidates belonging to OBC/MOBC, SC, ST(P) & ST(H)",
+          "acceptedDocTypes": [
+            "OBC Certificate",
+            "SC Certificate",
+            "ST Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Disability Certificate",
+          "fileSize": {
+            "min": 20,
+            "max": 1024,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "PDF"
+          ],
+          "required": false,
+          "description": "Disability Certificate from competent authority if applying for such category",
+          "acceptedDocTypes": [
+            "Disability Certificate",
+            "PwD Certificate"
+          ]
+        }
+      ],
+      "isPopular": true,
+      "searchTags": [
+        "assam",
+        "panchayat",
+        "rural development",
+        "cprd",
+        "gram panchayat",
+        "recruitment",
+        "2026"
+      ]
+    },
+    {
       "id": "assam-police-recruitment-2026",
       "name": "Assam Police Recruitment 2026",
       "shortName": "SLPRB Assam Police Recruitment",
@@ -574,7 +776,7 @@
           "required": true,
           "description": "Aadhaar card",
           "acceptedDocTypes": [
-            "Aadhaar card"
+            "Aadhaar Card"
           ]
         },
         {
