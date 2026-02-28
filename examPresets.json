@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-02-28T05:05:48.329Z",
+  "lastUpdated": "2026-02-28T05:16:32.207Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -2943,6 +2943,84 @@
       "name": "Test Notification Preset 2026",
       "shortName": "Test Notification",
       "category": "engineering",
+      "organizer": "Test Organization",
+      "examType": "competitive",
+      "formFillupStartDate": "2026-04-01",
+      "formFillupEndDate": "2026-04-30",
+      "officialWebsite": "https://example.com",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Photograph",
+          "dimensions": {
+            "width": 200,
+            "height": 230,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 50,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "colorMode": "color",
+          "required": true,
+          "description": "Test photograph requirement"
+        }
+      ],
+      "isPopular": false,
+      "searchTags": [
+        "test",
+        "notification",
+        "pipeline"
+      ]
+    },
+    {
+      "id": "test4-notification-preset-2026",
+      "name": "Test Notification Preset 2026",
+      "shortName": "Test Notification",
+      "category": "engineering",
+      "organizer": "Test Organization",
+      "examType": "competitive",
+      "formFillupStartDate": "2026-04-01",
+      "formFillupEndDate": "2026-04-30",
+      "officialWebsite": "https://example.com",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Photograph",
+          "dimensions": {
+            "width": 200,
+            "height": 230,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 50,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "colorMode": "color",
+          "required": true,
+          "description": "Test photograph requirement"
+        }
+      ],
+      "isPopular": false,
+      "searchTags": [
+        "test",
+        "notification",
+        "pipeline"
+      ]
+    },
+    {
+      "id": "test5-notification-preset-2026",
+      "name": "Test Notification Preset 2026",
+      "shortName": "Test Notification",
+      "category": "railway",
       "organizer": "Test Organization",
       "examType": "competitive",
       "formFillupStartDate": "2026-04-01",
