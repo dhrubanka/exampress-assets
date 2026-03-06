@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-03-02T06:20:59.580Z",
+  "lastUpdated": "2026-03-06T14:19:46.715Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -39,6 +39,155 @@
     }
   },
   "presets": [
+    {
+      "id": "mpesb-van-rakshak-jail-prahari-2026",
+      "name": "MPESB Van Rakshak / Jail Prahari Online Form 2026",
+      "shortName": "MPESB Van Rakshak / Jail Prahari 2026",
+      "category": "other",
+      "organizer": "Madhya Pradesh Employee Selection Board (MPESB)",
+      "examType": "recruitment",
+      "formFillupStartDate": "2026-02-28",
+      "formFillupEndDate": "2026-03-14",
+      "requirements": [
+        {
+          "type": "document",
+          "label": "Date of Birth Proof",
+          "fileSize": {
+            "min": 10,
+            "max": 150,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "description": "8th / 10th / 12th certificate as proof of date of birth",
+          "importantInfo": "8th / 10th / 12th certificate as proof of date of birth",
+          "acceptedDocTypes": [],
+          "advancedValidation": {
+            "dimensionRange": {
+              "width": {
+                "min": 700,
+                "max": 800
+              },
+              "height": {
+                "min": 400,
+                "max": 950
+              },
+              "unit": "px"
+            },
+            "validationLevel": "strict"
+          }
+        },
+        {
+          "type": "document",
+          "label": "Caste Certificate",
+          "fileSize": {
+            "min": 10,
+            "max": 150,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": false,
+          "description": "Caste certificate from competent authority (if applicable)",
+          "acceptedDocTypes": [
+            "SC Certificate",
+            "ST Certificate",
+            "OBC Certificate"
+          ],
+          "advancedValidation": {
+            "dimensionRange": {
+              "width": {
+                "min": 700,
+                "max": 800
+              },
+              "height": {
+                "min": 400,
+                "max": 950
+              },
+              "unit": "px"
+            },
+            "validationLevel": "strict"
+          }
+        },
+        {
+          "type": "document",
+          "label": "Handicapped Certificate",
+          "fileSize": {
+            "min": 10,
+            "max": 150,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": false,
+          "description": "Disability / Handicapped certificate from competent authority (if applicable)",
+          "acceptedDocTypes": [
+            "Disability Certificate",
+            "PwD Certificate"
+          ],
+          "advancedValidation": {
+            "dimensionRange": {
+              "width": {
+                "min": 700,
+                "max": 800
+              },
+              "height": {
+                "min": 400,
+                "max": 950
+              },
+              "unit": "px"
+            },
+            "validationLevel": "strict"
+          }
+        },
+        {
+          "type": "document",
+          "label": "Undergraduate Education Certificate",
+          "fileSize": {
+            "min": 10,
+            "max": 150,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": false,
+          "description": "Undergraduate degree / education certificate",
+          "acceptedDocTypes": [
+            "Bachelor's Degree Certificate",
+            "Graduation Marksheet"
+          ],
+          "advancedValidation": {
+            "dimensionRange": {
+              "width": {
+                "min": 700,
+                "max": 800
+              },
+              "height": {
+                "min": 400,
+                "max": 950
+              },
+              "unit": "px"
+            },
+            "validationLevel": "strict"
+          }
+        }
+      ],
+      "isPopular": true,
+      "searchTags": [
+        "mpesb",
+        "van rakshak",
+        "jail prahari",
+        "madhya pradesh",
+        "mp",
+        "forest guard",
+        "2026"
+      ]
+    },
     {
       "id": "pnb-apprentice-2026",
       "name": "PNB Apprentice Examination 2026",
