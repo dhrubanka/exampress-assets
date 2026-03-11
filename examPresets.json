@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-03-11T11:28:07.797Z",
+  "lastUpdated": "2026-03-11T12:02:53.892Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -3122,6 +3122,8 @@
       "category": "banking",
       "organizer": "IDBI Bank",
       "examType": "recruitment",
+      "formFillupStartDate": "2026-03-08",
+      "formFillupEndDate": "2026-03-19",
       "officialWebsite": "https://www.idbi.bank.in",
       "requirements": [
         {
