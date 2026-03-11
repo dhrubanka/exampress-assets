@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-03-06T14:19:46.715Z",
+  "lastUpdated": "2026-03-11T11:28:07.797Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -3007,6 +3007,215 @@
         "indian railways",
         "recruitment",
         "2026"
+      ]
+    },
+    {
+      "id": "idbi-bank-grade-o-2026",
+      "name": "IDBI Bank Junior Assistant Manager (JAM) Grade O Recruitment 2026",
+      "shortName": "IDBI Junior Assistant Manager (JAM) Grade O 2026",
+      "category": "banking",
+      "organizer": "IDBI Bank",
+      "examType": "recruitment",
+      "formFillupStartDate": "2026-03-08",
+      "formFillupEndDate": "2026-03-19",
+      "officialWebsite": "https://www.idbi.bank.in",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Photograph",
+          "dimensions": {
+            "width": 200,
+            "height": 230,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 20,
+            "max": 50,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "colorMode": "color",
+          "required": true,
+          "description": "Recent passport style colour picture (4.5cm × 3.5cm) taken against a light-coloured, preferably white background.",
+          "importantInfo": "No red-eye, no reflections on glasses. Caps, hats and dark glasses are not acceptable."
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "dimensions": {
+            "width": 140,
+            "height": 60,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 20,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "description": "Signature on white paper with Black Ink pen.",
+          "importantInfo": "Signature must NOT be in capital letters."
+        },
+        {
+          "type": "thumb",
+          "label": "Left Thumb Impression",
+          "dimensions": {
+            "width": 240,
+            "height": 240,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 20,
+            "max": 50,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "dpi": 200,
+          "required": true,
+          "description": "Left thumb impression on white paper with black or blue ink (3cm × 3cm).",
+          "importantInfo": "If left thumb is missing, right thumb or specified fingers can be used per official guidelines."
+        },
+        {
+          "type": "handwriting",
+          "label": "Hand Written Declaration",
+          "dimensions": {
+            "width": 800,
+            "height": 400,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 50,
+            "max": 100,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "dpi": 200,
+          "required": true,
+          "description": "Handwritten declaration in English clearly on a white paper with black ink (10cm × 5cm).",
+          "importantInfo": "Text must NOT be in capital letters. Text: \"I, __________ (Name of the candidate), hereby declare that all the information submitted by me in the application form is correct, true and valid. I will present the supporting documents as and when required.\""
+        }
+      ],
+      "isPopular": false,
+      "searchTags": [
+        "idbi",
+        "bank",
+        "grade o",
+        "banking",
+        "recruitment",
+        "2026",
+        "officer"
+      ]
+    },
+    {
+      "id": "idbi-bank-grade-a-2026",
+      "name": "IDBI Bank Assistant Manager (Grade A) Recruitment 2026",
+      "shortName": "IDBI Assistant Manager (Grade A) 2026",
+      "category": "banking",
+      "organizer": "IDBI Bank",
+      "examType": "recruitment",
+      "officialWebsite": "https://www.idbi.bank.in",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Photograph",
+          "dimensions": {
+            "width": 200,
+            "height": 230,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 20,
+            "max": 50,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "colorMode": "color",
+          "required": true,
+          "description": "Recent passport style colour picture (4.5cm × 3.5cm) taken against a light-coloured, preferably white background.",
+          "importantInfo": "No red-eye, no reflections on glasses. Caps, hats and dark glasses are not acceptable."
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "dimensions": {
+            "width": 140,
+            "height": 60,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 10,
+            "max": 20,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "description": "Signature on white paper with Black Ink pen.",
+          "importantInfo": "Signature must NOT be in capital letters."
+        },
+        {
+          "type": "thumb",
+          "label": "Left Thumb Impression",
+          "dimensions": {
+            "width": 240,
+            "height": 240,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 20,
+            "max": 50,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "dpi": 200,
+          "required": true,
+          "description": "Left thumb impression on white paper with black or blue ink (3cm × 3cm)."
+        },
+        {
+          "type": "handwriting",
+          "label": "Hand Written Declaration",
+          "dimensions": {
+            "width": 800,
+            "height": 400,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 50,
+            "max": 100,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "dpi": 200,
+          "required": true,
+          "description": "Handwritten declaration in English clearly on a white paper with black ink (10cm × 5cm).",
+          "importantInfo": "Text must NOT be in capital letters."
+        }
+      ],
+      "isPopular": false,
+      "searchTags": [
+        "idbi",
+        "bank",
+        "grade a",
+        "banking",
+        "recruitment",
+        "2026",
+        "officer"
       ]
     }
   ]
