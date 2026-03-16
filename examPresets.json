@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-03-12T06:47:12.212Z",
+  "lastUpdated": "2026-03-16T08:54:53.080Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -39,6 +39,98 @@
     }
   },
   "presets": [
+    {
+      "id": "assam-cee-2026",
+      "name": "Assam Combined Entrance Examination (CEE) 2026",
+      "shortName": "Assam CEE 2026",
+      "category": "engineering",
+      "organizer": "Assam Science and Technology University (ASTU)",
+      "examType": "entrance",
+      "formFillupStartDate": "2026-03-16",
+      "formFillupEndDate": "2026-03-31",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Photograph",
+          "dimensions": {
+            "width": 220,
+            "height": 320,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 25,
+            "max": 35,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
+          "colorMode": "color",
+          "required": true,
+          "description": "Recent photograph (within two months from date of application)",
+          "importantInfo": "Must be taken within two months of application. ",
+          "advancedValidation": {
+            "dimensionRange": {
+              "width": {
+                "min": 150,
+                "max": 220
+              },
+              "height": {
+                "min": 250,
+                "max": 320
+              },
+              "unit": "px"
+            },
+            "validationLevel": "strict"
+          }
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "dimensions": {
+            "width": 220,
+            "height": 180,
+            "unit": "px"
+          },
+          "fileSize": {
+            "min": 15,
+            "max": 30,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "JPEG"
+          ],
+          "required": true,
+          "description": "Current signature in black/blue ink on white paper",
+          "importantInfo": "Current signature in black/blue ink on white paper",
+          "advancedValidation": {
+            "dimensionRange": {
+              "width": {
+                "min": 150,
+                "max": 220
+              },
+              "height": {
+                "min": 100,
+                "max": 180
+              },
+              "unit": "px"
+            },
+            "validationLevel": "strict"
+          }
+        }
+      ],
+      "isPopular": true,
+      "searchTags": [
+        "assam",
+        "cee",
+        "combined entrance",
+        "engineering",
+        "astu",
+        "2026"
+      ]
+    },
     {
       "id": "mpesb-van-rakshak-jail-prahari-2026",
       "name": "MPESB Van Rakshak / Jail Prahari Online Form 2026",
