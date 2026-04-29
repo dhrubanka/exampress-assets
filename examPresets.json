@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2026-03-16T08:54:53.080Z",
+  "lastUpdated": "2026-04-29T06:53:04.183Z",
   "categories": {
     "engineering": {
       "name": "Engineering & Technical",
@@ -3310,6 +3310,287 @@
         "recruitment",
         "2026",
         "officer"
+      ]
+    },
+    {
+      "id": "assam-polytechnic-admission-2026",
+      "name": "Assam Polytechnic Admission 2026 – Application & Counselling Process",
+      "shortName": "Assam Polytechnic Admission 2026",
+      "category": "engineering",
+      "organizer": "State Council for Technical Education (SCTE), DTE Assam",
+      "examType": "entrance",
+      "formFillupEndDate": "2026-05-10",
+      "officialWebsite": "https://dte.assam.gov.in",
+      "requirements": [
+        {
+          "type": "photo",
+          "label": "Photograph",
+          "fileSize": {
+            "min": 10,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "colorMode": "color",
+          "required": true,
+          "description": "Scanned copy of your recent passport size photograph.",
+          "importantInfo": "Accepted formats: JPG or JPEG only. Size: 10KB–500KB."
+        },
+        {
+          "type": "signature",
+          "label": "Signature",
+          "fileSize": {
+            "min": 10,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG"
+          ],
+          "required": true,
+          "description": "Scanned copy of your signature.",
+          "importantInfo": "Accepted formats: JPG or JPEG only. Size: 10KB–500KB."
+        },
+        {
+          "type": "document",
+          "label": "Age Proof",
+          "fileSize": {
+            "min": 10,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "PDF"
+          ],
+          "required": true,
+          "description": "Scanned copy of age proof – HSLC Admit Card / HSLC Certificate / HSLC Marksheet (wherever date of birth is mentioned).",
+          "importantInfo": "Minimum age is 16 years as on 31-12-2026, there is no upper age limit.",
+          "acceptedDocTypes": [
+            "Class 10 Marksheet",
+            "Class 10 Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "ID Proof",
+          "fileSize": {
+            "min": 10,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "JPEG",
+            "PDF"
+          ],
+          "required": true,
+          "description": "ID proof document – PAN Card / School ID Card / Passport / Voter ID Card / Ration Card with photograph / Bank Passbook with photograph / Driving License / Certificate from Head of Institution last attended with photograph / Other valid Government Identity card with photograph.",
+          "acceptedDocTypes": [
+            "PAN Card",
+            "School Identity Card",
+            "Passport",
+            "Voter ID",
+            "Ration Card",
+            "Bank Passbook with photograph",
+            "Driving License"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Class 10 Marksheet & Certificate",
+          "fileSize": {
+            "min": 10,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "PDF"
+          ],
+          "required": true,
+          "description": "Scanned copy of Class 10 marksheet and certificate.",
+          "importantInfo": "Providing wrong information will lead to cancellation of the application during verification.",
+          "acceptedDocTypes": [
+            "Class 10 Marksheet",
+            "Class 10 Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Class 12 Marksheet & Certificate",
+          "fileSize": {
+            "min": 10,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "PDF"
+          ],
+          "required": false,
+          "description": "Scanned copy of Class 12 marksheet and certificate (if available).",
+          "acceptedDocTypes": [
+            "Class 12 Marksheet",
+            "Class 12 Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Permanent Residence Certificate (PRC)",
+          "fileSize": {
+            "min": 10,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "PDF"
+          ],
+          "required": true,
+          "description": "Permanent Residence Certificate (PRC) or PRC undertaking (Annexure-III), in case final PRC is not issued at the time of application.",
+          "importantInfo": "PRC undertaking (Annexure-III) is accepted if final PRC is not available at the time of application."
+        },
+        {
+          "type": "document",
+          "label": "Caste Category Certificate",
+          "fileSize": {
+            "min": 10,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "PDF"
+          ],
+          "required": false,
+          "description": "Caste category certificate from competent authority (if applicable).",
+          "acceptedDocTypes": [
+            "SC Certificate",
+            "ST Certificate",
+            "OBC Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "OBC/MOBC Non Creamy Layer (NCL) Certificate",
+          "fileSize": {
+            "min": 10,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "PDF"
+          ],
+          "required": false,
+          "description": "Non Creamy Layer (NCL) Certificate for OBC/MOBC quota applicants, or NCL undertaking (Annexure-III(A)) if NCL certificate is not available.",
+          "importantInfo": "If you select OBC-NCL category but wrongly enter Annual Family Income as more than ₹8 lakhs, you will be placed under UR category and lose NCL quota benefits.",
+          "acceptedDocTypes": [
+            "OBC-NCL Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "EWS Certificate",
+          "fileSize": {
+            "min": 10,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "PDF"
+          ],
+          "required": false,
+          "description": "EWS Certificate for applicants under EWS Quota, or EWS undertaking (Annexure-III(B)) if EWS certificate is not available.",
+          "importantInfo": "If you select EWS category but wrongly enter Annual Family Income as more than ₹8 lakhs, you will be placed under UR category and lose EWS quota benefits.",
+          "acceptedDocTypes": [
+            "EWS Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "NCC / Sports Certificate",
+          "fileSize": {
+            "min": 10,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "PDF"
+          ],
+          "required": false,
+          "description": "NCC or Sports certificate for candidates applying under NCC/Sports quota."
+        },
+        {
+          "type": "document",
+          "label": "PwD Certificate (UDID)",
+          "fileSize": {
+            "min": 10,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "PDF"
+          ],
+          "required": false,
+          "description": "PwD certificate (UDID) for candidates applying under PwD quota.",
+          "acceptedDocTypes": [
+            "PwD Certificate"
+          ]
+        },
+        {
+          "type": "document",
+          "label": "Income Certificate (TFW Quota)",
+          "fileSize": {
+            "min": 10,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "JPEG",
+            "PDF"
+          ],
+          "required": false,
+          "description": "Income certificate for candidates applying under TFW (Tuition Fee Waiver) quota, or TFW undertaking (Annexure-TW) if income certificate is not available.",
+          "importantInfo": "TFW undertaking (Annexure-TW) accepted if income certificate is not available at the time of application."
+        },
+        {
+          "type": "document",
+          "label": "Central Government Employee (CGE) Quota Certificates",
+          "fileSize": {
+            "min": 10,
+            "max": 500,
+            "unit": "KB"
+          },
+          "format": [
+            "JPG",
+            "PDF"
+          ],
+          "required": false,
+          "description": "Relevant certificates for applicants under Central Government Employee (CGE) quota as mentioned in the information brochure.",
+          "importantInfo": "PRC holders of Assam are NOT eligible for CGE quota. Permanent residents of Assam applying under CGE quota will be rejected during verification. CGE benefits can only be availed if candidate's father/mother is a Central Government employee from a State other than Assam and is working in Assam for less than 20 years."
+        }
+      ],
+      "isPopular": true,
+      "searchTags": [
+        "assam",
+        "polytechnic",
+        "diploma",
+        "engineering",
+        "scte",
+        "dte",
+        "admission",
+        "2026",
+        "assam polytechnic",
+        "hslc",
+        "counselling"
       ]
     }
   ]
